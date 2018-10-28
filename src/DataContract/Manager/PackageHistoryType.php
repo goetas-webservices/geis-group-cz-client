@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing PackageHistoryType

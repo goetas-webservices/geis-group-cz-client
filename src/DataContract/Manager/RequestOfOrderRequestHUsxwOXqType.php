@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing RequestOfOrderRequestHUsxwOXqType
@@ -12,19 +12,19 @@ class RequestOfOrderRequestHUsxwOXqType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      */
     private $header = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderRequestType $requestObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderRequestType $requestObject
      */
     private $requestObject = null;
 
     /**
      * Gets as header
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType
      */
     public function getHeader()
     {
@@ -34,10 +34,10 @@ class RequestOfOrderRequestHUsxwOXqType
     /**
      * Sets a new header
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      * @return self
      */
-    public function setHeader(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header)
+    public function setHeader(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header)
     {
         $this->header = $header;
         return $this;
@@ -46,7 +46,7 @@ class RequestOfOrderRequestHUsxwOXqType
     /**
      * Gets as requestObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderRequestType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderRequestType
      */
     public function getRequestObject()
     {
@@ -56,10 +56,10 @@ class RequestOfOrderRequestHUsxwOXqType
     /**
      * Sets a new requestObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderRequestType $requestObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderRequestType $requestObject
      * @return self
      */
-    public function setRequestObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderRequestType $requestObject)
+    public function setRequestObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderRequestType $requestObject)
     {
         $this->requestObject = $requestObject;
         return $this;

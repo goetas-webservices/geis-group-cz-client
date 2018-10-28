@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfRODParameterType
@@ -12,7 +12,7 @@ class ArrayOfRODParameterType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType[] $rODParameter
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType[] $rODParameter
      */
     private $rODParameter = [
         
@@ -22,9 +22,9 @@ class ArrayOfRODParameterType
      * Adds as rODParameter
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType $rODParameter
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType $rODParameter
      */
-    public function addToRODParameter(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType $rODParameter)
+    public function addToRODParameter(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType $rODParameter)
     {
         $this->rODParameter[] = $rODParameter;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfRODParameterType
     /**
      * Gets as rODParameter
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType[]
      */
     public function getRODParameter()
     {
@@ -65,7 +65,7 @@ class ArrayOfRODParameterType
     /**
      * Sets a new rODParameter
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType[] $rODParameter
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType[] $rODParameter
      * @return self
      */
     public function setRODParameter(array $rODParameter)

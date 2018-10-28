@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponse:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponse:
     xml_root_name: DeleteShipmentItemResponse
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

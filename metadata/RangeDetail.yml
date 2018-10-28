@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\RangeDetail:
+GoetasWebservices\Client\GeisGroupCz\RangeDetail:
     xml_root_name: RangeDetail
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\RangeDetail:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing GetCurrencies

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfLabelRequestLabelResponsepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfLabelRequestLabelResponsepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelResponseType $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfLabelRequestLabelResponsepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfLabelRequestLabelResponsepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -105,7 +105,7 @@ class ResponseOfLabelRequestLabelResponsepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelResponseType
      */
     public function getResponseObject()
     {
@@ -115,10 +115,10 @@ class ResponseOfLabelRequestLabelResponsepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelResponseType $responseObject
      * @return self
      */
-    public function setResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType $responseObject)
+    public function setResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelResponseType $responseObject)
     {
         $this->responseObject = $responseObject;
         return $this;

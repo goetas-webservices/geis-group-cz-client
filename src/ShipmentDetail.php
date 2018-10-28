@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing ShipmentDetail
@@ -9,14 +9,14 @@ class ShipmentDetail
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request
      */
     private $request = null;
 
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType
      */
     public function getRequest()
     {
@@ -26,10 +26,10 @@ class ShipmentDetail
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;

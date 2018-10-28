@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing GetPickupListOutput
@@ -9,7 +9,7 @@ class GetPickupListOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetPickupListOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class GetPickupListOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetPickupListOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class GetPickupListOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetPickupListOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\GetPickupListOutput $body)
     {
         $this->body = $body;
         return $this;

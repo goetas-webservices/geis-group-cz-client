@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse:
+GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse:
     xml_root_name: DeleteShipmentResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse:
             accessor:
                 getter: getDeleteShipmentResult
                 setter: setDeleteShipmentResult
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType

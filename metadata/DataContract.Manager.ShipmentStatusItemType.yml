@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType:
     properties:
         shipmentNumber:
             expose: true

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusRequestType:
     properties:
         shipmentsNumbers:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusRequestTy
             accessor:
                 getter: getShipmentsNumbers
                 setter: setShipmentsNumbers
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType>
             xml_list:
                 inline: false
                 entry_name: ShipmentStatusItem

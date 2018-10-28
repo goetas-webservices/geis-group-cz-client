@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentReqeustType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentReqeustType:
     properties:
         distributionChannel:
             expose: true

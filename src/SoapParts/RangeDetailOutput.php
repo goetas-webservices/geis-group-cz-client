@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing RangeDetailOutput
@@ -9,14 +9,14 @@ class RangeDetailOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\RangeDetailResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\RangeDetailResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class RangeDetailOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\RangeDetailResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\RangeDetailResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

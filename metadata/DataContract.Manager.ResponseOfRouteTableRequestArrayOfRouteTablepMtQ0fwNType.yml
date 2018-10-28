@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRouteTableReq
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRouteTableReq
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType>
             xml_list:
                 inline: false
                 entry_name: RouteTable

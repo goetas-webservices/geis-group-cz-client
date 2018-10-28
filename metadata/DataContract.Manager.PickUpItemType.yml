@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType:
     properties:
         countItems:
             expose: true

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType:
     properties:
         errorMessage:
             expose: true

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType:
     properties:
         note:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing ListOfShipmentsOutput
@@ -9,14 +9,14 @@ class ListOfShipmentsOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\ListOfShipmentsResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\ListOfShipmentsResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class ListOfShipmentsOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\ListOfShipmentsResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\ListOfShipmentsResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

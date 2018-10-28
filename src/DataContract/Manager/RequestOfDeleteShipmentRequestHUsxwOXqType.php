@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing RequestOfDeleteShipmentRequestHUsxwOXqType
@@ -12,19 +12,19 @@ class RequestOfDeleteShipmentRequestHUsxwOXqType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      */
     private $header = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentRequestType $requestObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentRequestType $requestObject
      */
     private $requestObject = null;
 
     /**
      * Gets as header
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType
      */
     public function getHeader()
     {
@@ -34,10 +34,10 @@ class RequestOfDeleteShipmentRequestHUsxwOXqType
     /**
      * Sets a new header
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      * @return self
      */
-    public function setHeader(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header)
+    public function setHeader(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header)
     {
         $this->header = $header;
         return $this;
@@ -46,7 +46,7 @@ class RequestOfDeleteShipmentRequestHUsxwOXqType
     /**
      * Gets as requestObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentRequestType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentRequestType
      */
     public function getRequestObject()
     {
@@ -56,10 +56,10 @@ class RequestOfDeleteShipmentRequestHUsxwOXqType
     /**
      * Sets a new requestObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentRequestType $requestObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentRequestType $requestObject
      * @return self
      */
-    public function setRequestObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentRequestType $requestObject)
+    public function setRequestObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentRequestType $requestObject)
     {
         $this->requestObject = $requestObject;
         return $this;

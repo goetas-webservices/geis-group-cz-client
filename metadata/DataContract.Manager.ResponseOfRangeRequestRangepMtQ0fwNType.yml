@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestR
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestR
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType
         status:
             expose: true
             access_type: public_method

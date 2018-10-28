@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\GetCurrenciesResponse:
+GoetasWebservices\Client\GeisGroupCz\GetCurrenciesResponse:
     xml_root_name: GetCurrenciesResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:

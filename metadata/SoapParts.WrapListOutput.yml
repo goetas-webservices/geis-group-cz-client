@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\WrapListOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\WrapListOutput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\WrapListOutput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: WrapListResponse
-            type: GoetasWebservices\Client\GeisGrouCz\WrapListResponse
+            type: GoetasWebservices\Client\GeisGroupCz\WrapListResponse

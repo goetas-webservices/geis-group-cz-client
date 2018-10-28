@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfRangeDetailResponseItemType
@@ -12,7 +12,7 @@ class ArrayOfRangeDetailResponseItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailResponseItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailResponseItem
      */
     private $rangeDetailResponseItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfRangeDetailResponseItemType
      * Adds as rangeDetailResponseItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem
      */
-    public function addToRangeDetailResponseItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem)
+    public function addToRangeDetailResponseItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem)
     {
         $this->rangeDetailResponseItem[] = $rangeDetailResponseItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfRangeDetailResponseItemType
     /**
      * Gets as rangeDetailResponseItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[]
      */
     public function getRangeDetailResponseItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfRangeDetailResponseItemType
     /**
      * Sets a new rangeDetailResponseItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailResponseItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailResponseItem
      * @return self
      */
     public function setRangeDetailResponseItem(array $rangeDetailResponseItem)

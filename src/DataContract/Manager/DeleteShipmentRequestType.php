@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing DeleteShipmentRequestType
@@ -12,7 +12,7 @@ class DeleteShipmentRequestType extends RequestObjectBaseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[] $shipmentsNumbers
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[] $shipmentsNumbers
      */
     private $shipmentsNumbers = null;
 
@@ -20,9 +20,9 @@ class DeleteShipmentRequestType extends RequestObjectBaseType
      * Adds as deleteShipmentItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem
      */
-    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem)
+    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem)
     {
         $this->shipmentsNumbers[] = $deleteShipmentItem;
         return $this;
@@ -53,7 +53,7 @@ class DeleteShipmentRequestType extends RequestObjectBaseType
     /**
      * Gets as shipmentsNumbers
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[]
      */
     public function getShipmentsNumbers()
     {
@@ -63,7 +63,7 @@ class DeleteShipmentRequestType extends RequestObjectBaseType
     /**
      * Sets a new shipmentsNumbers
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[] $shipmentsNumbers
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[] $shipmentsNumbers
      * @return self
      */
     public function setShipmentsNumbers(array $shipmentsNumbers)

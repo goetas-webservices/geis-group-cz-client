@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing IsHealthyInput
@@ -9,7 +9,7 @@ class IsHealthyInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyInput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyInput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class IsHealthyInput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyInput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyInput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class IsHealthyInput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyInput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyInput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyInput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyInput $body)
     {
         $this->body = $body;
         return $this;

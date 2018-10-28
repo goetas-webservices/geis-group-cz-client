@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfDeleteShipmentItemResponseType
@@ -12,7 +12,7 @@ class ArrayOfDeleteShipmentItemResponseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType[] $deleteShipmentItemResponse
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType[] $deleteShipmentItemResponse
      */
     private $deleteShipmentItemResponse = [
         
@@ -22,9 +22,9 @@ class ArrayOfDeleteShipmentItemResponseType
      * Adds as deleteShipmentItemResponse
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType $deleteShipmentItemResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType $deleteShipmentItemResponse
      */
-    public function addToDeleteShipmentItemResponse(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType $deleteShipmentItemResponse)
+    public function addToDeleteShipmentItemResponse(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType $deleteShipmentItemResponse)
     {
         $this->deleteShipmentItemResponse[] = $deleteShipmentItemResponse;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfDeleteShipmentItemResponseType
     /**
      * Gets as deleteShipmentItemResponse
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType[]
      */
     public function getDeleteShipmentItemResponse()
     {
@@ -65,7 +65,7 @@ class ArrayOfDeleteShipmentItemResponseType
     /**
      * Sets a new deleteShipmentItemResponse
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType[] $deleteShipmentItemResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType[] $deleteShipmentItemResponse
      * @return self
      */
     public function setDeleteShipmentItemResponse(array $deleteShipmentItemResponse)

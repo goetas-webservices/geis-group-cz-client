@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRangeDetailResponseItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfRangeDetailResponseItemType:
     properties:
         rangeDetailResponseItem:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRangeDetailRespo
                 inline: true
                 entry_name: RangeDetailResponseItem
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType>

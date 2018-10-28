@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType:
     properties:
         rangeHigh:
             expose: true

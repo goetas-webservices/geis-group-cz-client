@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRouteTableType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfRouteTableType:
     properties:
         routeTable:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRouteTableType:
                 inline: true
                 entry_name: RouteTable
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType>

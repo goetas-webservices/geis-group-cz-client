@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentDetailInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentDetailInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentDetailInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: ShipmentDetail
-            type: GoetasWebservices\Client\GeisGrouCz\ShipmentDetail
+            type: GoetasWebservices\Client\GeisGroupCz\ShipmentDetail

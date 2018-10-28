@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestO
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfOrderRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfOrderRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestO
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderType
         status:
             expose: true
             access_type: public_method

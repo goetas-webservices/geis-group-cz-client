@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\ShipmentStatusInput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages\ShipmentStatusInput:
     xml_root_name: 'SOAP:Envelope'
     xml_root_namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
     xml_namespaces:
@@ -7,7 +7,7 @@ GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\ShipmentStatusInput:
         body:
             expose: true
             access_type: public_method
-            type: GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentStatusInput
+            type: GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentStatusInput
             serialized_name: Body
             xml_element:
                 namespace: 'http://schemas.xmlsoap.org/soap/envelope/'

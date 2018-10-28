@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\InsertExportResponse:
+GoetasWebservices\Client\GeisGroupCz\InsertExportResponse:
     xml_root_name: InsertExportResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\InsertExportResponse:
             accessor:
                 getter: getInsertExportResult
                 setter: setInsertExportResult
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType

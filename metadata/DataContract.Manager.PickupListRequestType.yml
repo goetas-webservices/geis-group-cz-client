@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListRequestType:
     properties:
         distributionChannel:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListRequestType:
             accessor:
                 getter: getShipmentsNumbers
                 setter: setShipmentsNumbers
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType>
             xml_list:
                 inline: false
                 entry_name: PickupListShipmItem

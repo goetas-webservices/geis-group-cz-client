@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfStatus:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfStatus:
     xml_root_name: ArrayOfStatus
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

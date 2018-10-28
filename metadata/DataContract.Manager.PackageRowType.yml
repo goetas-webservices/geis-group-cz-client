@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType:
     properties:
         countItems:
             expose: true

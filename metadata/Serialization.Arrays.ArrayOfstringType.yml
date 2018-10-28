@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\Serialization\Arrays\ArrayOfstringType:
+GoetasWebservices\Client\GeisGroupCz\Serialization\Arrays\ArrayOfstringType:
     properties:
         string:
             expose: true

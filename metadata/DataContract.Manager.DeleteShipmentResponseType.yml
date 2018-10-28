@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentResponseType:
     properties:
         shipmentsNumbers:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentResponseT
             accessor:
                 getter: getShipmentsNumbers
                 setter: setShipmentsNumbers
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemResponseType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemResponseType>
             xml_list:
                 inline: false
                 entry_name: DeleteShipmentItemResponse

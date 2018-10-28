@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing GetLabelOutput
@@ -9,7 +9,7 @@ class GetLabelOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetLabelOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class GetLabelOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetLabelOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class GetLabelOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetLabelOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\GetLabelOutput $body)
     {
         $this->body = $body;
         return $this;

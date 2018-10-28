@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing RangeDetailInput
@@ -9,7 +9,7 @@ class RangeDetailInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\RangeDetailInput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class RangeDetailInput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\RangeDetailInput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class RangeDetailInput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\RangeDetailInput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\RangeDetailInput $body)
     {
         $this->body = $body;
         return $this;

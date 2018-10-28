@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemDataType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemDataType:
     properties:
         data:
             expose: true

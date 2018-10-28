@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfCurrency:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfCurrency:
     xml_root_name: ArrayOfCurrency
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

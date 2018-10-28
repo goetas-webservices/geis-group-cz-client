@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfPickUpItemType
@@ -12,7 +12,7 @@ class ArrayOfPickUpItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[] $pickUpItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[] $pickUpItem
      */
     private $pickUpItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfPickUpItemType
      * Adds as pickUpItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType $pickUpItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType $pickUpItem
      */
-    public function addToPickUpItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType $pickUpItem)
+    public function addToPickUpItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType $pickUpItem)
     {
         $this->pickUpItem[] = $pickUpItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfPickUpItemType
     /**
      * Gets as pickUpItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[]
      */
     public function getPickUpItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfPickUpItemType
     /**
      * Sets a new pickUpItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[] $pickUpItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[] $pickUpItem
      * @return self
      */
     public function setPickUpItem(array $pickUpItem)

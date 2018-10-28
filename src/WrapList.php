@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing WrapList
@@ -9,14 +9,14 @@ class WrapList
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -26,10 +26,10 @@ class WrapList
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;

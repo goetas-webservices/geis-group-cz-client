@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\Serialization\Arrays;
+namespace GoetasWebservices\Client\GeisGroupCz\Serialization\Arrays;
 
 /**
  * Class representing ArrayOfstringType

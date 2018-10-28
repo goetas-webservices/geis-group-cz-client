@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\ListOfShipments:
+GoetasWebservices\Client\GeisGroupCz\ListOfShipments:
     xml_root_name: ListOfShipments
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\ListOfShipments:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType

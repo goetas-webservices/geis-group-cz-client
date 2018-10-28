@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing GetCurrenciesInput
@@ -9,14 +9,14 @@ class GetCurrenciesInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\GetCurrencies $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\GetCurrencies $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\GetCurrencies
+     * @return \GoetasWebservices\Client\GeisGroupCz\GetCurrencies
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class GetCurrenciesInput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\GetCurrencies $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\GetCurrencies $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\GetCurrencies $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\GetCurrencies $parameters)
     {
         $this->parameters = $parameters;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfColliHistoryType
@@ -12,7 +12,7 @@ class ArrayOfColliHistoryType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[] $colliHistory
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[] $colliHistory
      */
     private $colliHistory = [
         
@@ -22,9 +22,9 @@ class ArrayOfColliHistoryType
      * Adds as colliHistory
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType $colliHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType $colliHistory
      */
-    public function addToColliHistory(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType $colliHistory)
+    public function addToColliHistory(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType $colliHistory)
     {
         $this->colliHistory[] = $colliHistory;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfColliHistoryType
     /**
      * Gets as colliHistory
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[]
      */
     public function getColliHistory()
     {
@@ -65,7 +65,7 @@ class ArrayOfColliHistoryType
     /**
      * Sets a new colliHistory
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[] $colliHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[] $colliHistory
      * @return self
      */
     public function setColliHistory(array $colliHistory)

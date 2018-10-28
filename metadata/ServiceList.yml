@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\ServiceList:
+GoetasWebservices\Client\GeisGroupCz\ServiceList:
     xml_root_name: ServiceList
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\ServiceList:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType

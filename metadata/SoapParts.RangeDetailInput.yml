@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\RangeDetailInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: RangeDetail
-            type: GoetasWebservices\Client\GeisGrouCz\RangeDetail
+            type: GoetasWebservices\Client\GeisGroupCz\RangeDetail

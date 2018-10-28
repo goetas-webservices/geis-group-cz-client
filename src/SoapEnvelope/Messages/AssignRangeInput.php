@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing AssignRangeInput
@@ -9,7 +9,7 @@ class AssignRangeInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\AssignRangeInput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\AssignRangeInput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class AssignRangeInput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\AssignRangeInput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\AssignRangeInput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class AssignRangeInput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\AssignRangeInput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\AssignRangeInput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\AssignRangeInput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\AssignRangeInput $body)
     {
         $this->body = $body;
         return $this;

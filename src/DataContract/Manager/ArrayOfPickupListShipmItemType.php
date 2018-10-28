@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfPickupListShipmItemType
@@ -12,7 +12,7 @@ class ArrayOfPickupListShipmItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[] $pickupListShipmItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[] $pickupListShipmItem
      */
     private $pickupListShipmItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfPickupListShipmItemType
      * Adds as pickupListShipmItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem
      */
-    public function addToPickupListShipmItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem)
+    public function addToPickupListShipmItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem)
     {
         $this->pickupListShipmItem[] = $pickupListShipmItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfPickupListShipmItemType
     /**
      * Gets as pickupListShipmItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[]
      */
     public function getPickupListShipmItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfPickupListShipmItemType
     /**
      * Sets a new pickupListShipmItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[] $pickupListShipmItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[] $pickupListShipmItem
      * @return self
      */
     public function setPickupListShipmItem(array $pickupListShipmItem)

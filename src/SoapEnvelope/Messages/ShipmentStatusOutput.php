@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing ShipmentStatusOutput
@@ -9,7 +9,7 @@ class ShipmentStatusOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentStatusOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentStatusOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class ShipmentStatusOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentStatusOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentStatusOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class ShipmentStatusOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentStatusOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentStatusOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\ShipmentStatusOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\ShipmentStatusOutput $body)
     {
         $this->body = $body;
         return $this;

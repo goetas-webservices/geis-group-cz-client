@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\Serialization;
+namespace GoetasWebservices\Client\GeisGroupCz\Serialization;
 
 /**
  * Class representing UnsignedInt

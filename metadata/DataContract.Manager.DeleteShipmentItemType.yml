@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType:
     properties:
         distributionChannel:
             expose: true

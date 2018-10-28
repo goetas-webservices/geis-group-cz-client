@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfServiceType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfServiceType:
     properties:
         service:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfServiceType:
                 inline: true
                 entry_name: Service
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType>

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfPackageHistoryType
@@ -12,7 +12,7 @@ class ArrayOfPackageHistoryType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[] $packageHistory
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[] $packageHistory
      */
     private $packageHistory = [
         
@@ -22,9 +22,9 @@ class ArrayOfPackageHistoryType
      * Adds as packageHistory
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType $packageHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType $packageHistory
      */
-    public function addToPackageHistory(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType $packageHistory)
+    public function addToPackageHistory(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType $packageHistory)
     {
         $this->packageHistory[] = $packageHistory;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfPackageHistoryType
     /**
      * Gets as packageHistory
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[]
      */
     public function getPackageHistory()
     {
@@ -65,7 +65,7 @@ class ArrayOfPackageHistoryType
     /**
      * Sets a new packageHistory
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[] $packageHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[] $packageHistory
      * @return self
      */
     public function setPackageHistory(array $packageHistory)

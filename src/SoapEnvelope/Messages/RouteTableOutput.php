@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing RouteTableOutput
@@ -9,7 +9,7 @@ class RouteTableOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\RouteTableOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class RouteTableOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\RouteTableOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class RouteTableOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\RouteTableOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\RouteTableOutput $body)
     {
         $this->body = $body;
         return $this;

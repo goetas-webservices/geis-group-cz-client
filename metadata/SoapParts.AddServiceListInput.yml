@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\AddServiceListInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: AddServiceList
-            type: GoetasWebservices\Client\GeisGrouCz\AddServiceList
+            type: GoetasWebservices\Client\GeisGroupCz\AddServiceList

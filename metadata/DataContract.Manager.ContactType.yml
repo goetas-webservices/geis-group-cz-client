@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType:
     properties:
         email:
             expose: true

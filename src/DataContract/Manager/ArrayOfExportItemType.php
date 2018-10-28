@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfExportItemType
@@ -12,7 +12,7 @@ class ArrayOfExportItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[] $exportItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[] $exportItem
      */
     private $exportItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfExportItemType
      * Adds as exportItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType $exportItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType $exportItem
      */
-    public function addToExportItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType $exportItem)
+    public function addToExportItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType $exportItem)
     {
         $this->exportItem[] = $exportItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfExportItemType
     /**
      * Gets as exportItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[]
      */
     public function getExportItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfExportItemType
     /**
      * Sets a new exportItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[] $exportItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[] $exportItem
      * @return self
      */
     public function setExportItem(array $exportItem)

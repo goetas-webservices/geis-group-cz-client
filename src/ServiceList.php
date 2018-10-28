@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing ServiceList
@@ -9,14 +9,14 @@ class ServiceList
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -26,10 +26,10 @@ class ServiceList
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;

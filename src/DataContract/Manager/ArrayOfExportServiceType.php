@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfExportServiceType
@@ -12,7 +12,7 @@ class ArrayOfExportServiceType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[] $exportService
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[] $exportService
      */
     private $exportService = [
         
@@ -22,9 +22,9 @@ class ArrayOfExportServiceType
      * Adds as exportService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType $exportService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType $exportService
      */
-    public function addToExportService(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType $exportService)
+    public function addToExportService(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType $exportService)
     {
         $this->exportService[] = $exportService;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfExportServiceType
     /**
      * Gets as exportService
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[]
      */
     public function getExportService()
     {
@@ -65,7 +65,7 @@ class ArrayOfExportServiceType
     /**
      * Sets a new exportService
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[] $exportService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[] $exportService
      * @return self
      */
     public function setExportService(array $exportService)

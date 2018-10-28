@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing DeliveryRoutingOutput
@@ -9,14 +9,14 @@ class DeliveryRoutingOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\DeliveryRoutingResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\DeliveryRoutingResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class DeliveryRoutingOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\DeliveryRoutingResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\DeliveryRoutingResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

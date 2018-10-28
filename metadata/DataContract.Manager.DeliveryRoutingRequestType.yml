@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType:
     properties:
         countryIn:
             expose: true

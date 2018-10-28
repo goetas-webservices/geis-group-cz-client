@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing RangeDetail
@@ -9,14 +9,14 @@ class RangeDetail
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -26,10 +26,10 @@ class RangeDetail
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;

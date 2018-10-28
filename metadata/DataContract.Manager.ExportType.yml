@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportType:
     properties:
         burstId:
             expose: true

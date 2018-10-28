@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing InsertExportOutput
@@ -9,7 +9,7 @@ class InsertExportOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertExportOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class InsertExportOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertExportOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class InsertExportOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertExportOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertExportOutput $body)
     {
         $this->body = $body;
         return $this;

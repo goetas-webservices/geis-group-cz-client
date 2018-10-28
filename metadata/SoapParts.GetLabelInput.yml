@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\GetLabelInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\GetLabelInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: GetLabel
-            type: GoetasWebservices\Client\GeisGrouCz\GetLabel
+            type: GoetasWebservices\Client\GeisGroupCz\GetLabel

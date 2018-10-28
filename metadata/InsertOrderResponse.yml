@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\InsertOrderResponse:
+GoetasWebservices\Client\GeisGroupCz\InsertOrderResponse:
     xml_root_name: InsertOrderResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\InsertOrderResponse:
             accessor:
                 getter: getInsertOrderResult
                 setter: setInsertOrderResult
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType

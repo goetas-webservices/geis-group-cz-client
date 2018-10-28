@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfZipCodesType
@@ -12,7 +12,7 @@ class ArrayOfZipCodesType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType[] $zipCodes
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType[] $zipCodes
      */
     private $zipCodes = [
         
@@ -22,9 +22,9 @@ class ArrayOfZipCodesType
      * Adds as zipCodes
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType $zipCodes
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType $zipCodes
      */
-    public function addToZipCodes(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType $zipCodes)
+    public function addToZipCodes(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType $zipCodes)
     {
         $this->zipCodes[] = $zipCodes;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfZipCodesType
     /**
      * Gets as zipCodes
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType[]
      */
     public function getZipCodes()
     {
@@ -65,7 +65,7 @@ class ArrayOfZipCodesType
     /**
      * Sets a new zipCodes
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType[] $zipCodes
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType[] $zipCodes
      * @return self
      */
     public function setZipCodes(array $zipCodes)

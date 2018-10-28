@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[] $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[] $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -106,9 +106,9 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
      * Adds as shipmentResponse
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType $shipmentResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType $shipmentResponse
      */
-    public function addToResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType $shipmentResponse)
+    public function addToResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType $shipmentResponse)
     {
         $this->responseObject[] = $shipmentResponse;
         return $this;
@@ -139,7 +139,7 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[]
      */
     public function getResponseObject()
     {
@@ -149,7 +149,7 @@ class ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[] $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[] $responseObject
      * @return self
      */
     public function setResponseObject(array $responseObject)

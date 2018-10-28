@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\StatusListInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\StatusListInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\StatusListInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: StatusList
-            type: GoetasWebservices\Client\GeisGrouCz\StatusList
+            type: GoetasWebservices\Client\GeisGroupCz\StatusList

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType:
     properties:
         header:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatus
             accessor:
                 getter: getHeader
                 setter: setHeader
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType
         requestObject:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatus
             accessor:
                 getter: getRequestObject
                 setter: setRequestObject
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusRequestType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusRequestType

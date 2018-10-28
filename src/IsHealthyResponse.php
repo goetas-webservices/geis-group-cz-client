@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing IsHealthyResponse
@@ -9,14 +9,14 @@ class IsHealthyResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType $isHealthyResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType $isHealthyResult
      */
     private $isHealthyResult = null;
 
     /**
      * Gets as isHealthyResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType
      */
     public function getIsHealthyResult()
     {
@@ -26,10 +26,10 @@ class IsHealthyResponse
     /**
      * Sets a new isHealthyResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType $isHealthyResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType $isHealthyResult
      * @return self
      */
-    public function setIsHealthyResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType $isHealthyResult)
+    public function setIsHealthyResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType $isHealthyResult)
     {
         $this->isHealthyResult = $isHealthyResult;
         return $this;

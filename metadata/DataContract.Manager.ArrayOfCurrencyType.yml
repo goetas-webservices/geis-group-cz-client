@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfCurrencyType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfCurrencyType:
     properties:
         currency:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfPackageRowType
@@ -12,7 +12,7 @@ class ArrayOfPackageRowType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[] $packageRow
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[] $packageRow
      */
     private $packageRow = [
         
@@ -22,9 +22,9 @@ class ArrayOfPackageRowType
      * Adds as packageRow
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType $packageRow
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType $packageRow
      */
-    public function addToPackageRow(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType $packageRow)
+    public function addToPackageRow(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType $packageRow)
     {
         $this->packageRow[] = $packageRow;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfPackageRowType
     /**
      * Gets as packageRow
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[]
      */
     public function getPackageRow()
     {
@@ -65,7 +65,7 @@ class ArrayOfPackageRowType
     /**
      * Sets a new packageRow
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[] $packageRow
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[] $packageRow
      * @return self
      */
     public function setPackageRow(array $packageRow)

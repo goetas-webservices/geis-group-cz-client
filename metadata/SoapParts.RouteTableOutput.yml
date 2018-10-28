@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\RouteTableOutput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\RouteTableOutput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: RouteTableResponse
-            type: GoetasWebservices\Client\GeisGrouCz\RouteTableResponse
+            type: GoetasWebservices\Client\GeisGroupCz\RouteTableResponse

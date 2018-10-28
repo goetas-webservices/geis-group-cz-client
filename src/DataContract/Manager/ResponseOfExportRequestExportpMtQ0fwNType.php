@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfExportRequestExportpMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfExportRequestExportpMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportType $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfExportRequestExportpMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfExportRequestExportpMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -105,7 +105,7 @@ class ResponseOfExportRequestExportpMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportType
      */
     public function getResponseObject()
     {
@@ -115,10 +115,10 @@ class ResponseOfExportRequestExportpMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportType $responseObject
      * @return self
      */
-    public function setResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType $responseObject)
+    public function setResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportType $responseObject)
     {
         $this->responseObject = $responseObject;
         return $this;

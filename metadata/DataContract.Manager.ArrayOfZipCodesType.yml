@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfZipCodesType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfZipCodesType:
     properties:
         zipCodes:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfZipCodesType:
                 inline: true
                 entry_name: ZipCodes
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType>

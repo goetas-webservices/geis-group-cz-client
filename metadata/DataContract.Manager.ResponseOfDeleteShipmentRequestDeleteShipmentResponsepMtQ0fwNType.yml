@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmen
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeleteShipmentRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfDeleteShipmentRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmen
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentResponseType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentResponseType
         status:
             expose: true
             access_type: public_method

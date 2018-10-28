@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpRequestType:
     properties:
         contact:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpRequestType:
             accessor:
                 getter: getContact
                 setter: setContact
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType
         countItems:
             expose: true
             access_type: public_method
@@ -69,7 +69,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpRequestType:
             accessor:
                 getter: getPickUpItems
                 setter: setPickUpItems
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType>
             xml_list:
                 inline: false
                 entry_name: PickUpItem

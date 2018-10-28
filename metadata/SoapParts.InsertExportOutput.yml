@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertExportOutput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertExportOutput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: InsertExportResponse
-            type: GoetasWebservices\Client\GeisGrouCz\InsertExportResponse
+            type: GoetasWebservices\Client\GeisGroupCz\InsertExportResponse

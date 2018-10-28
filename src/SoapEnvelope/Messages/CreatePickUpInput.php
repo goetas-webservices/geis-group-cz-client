@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing CreatePickUpInput
@@ -9,7 +9,7 @@ class CreatePickUpInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\CreatePickUpInput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\CreatePickUpInput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class CreatePickUpInput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\CreatePickUpInput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\CreatePickUpInput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class CreatePickUpInput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\CreatePickUpInput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\CreatePickUpInput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\CreatePickUpInput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\CreatePickUpInput $body)
     {
         $this->body = $body;
         return $this;

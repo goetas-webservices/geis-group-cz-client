@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Headers\DeliveryRoutingInput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Headers\DeliveryRoutingInput:
     xml_namespaces:
         SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

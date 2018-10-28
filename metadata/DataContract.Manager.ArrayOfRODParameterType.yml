@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRODParameterType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfRODParameterType:
     properties:
         rODParameter:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRODParameterType
                 inline: true
                 entry_name: RODParameter
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType>

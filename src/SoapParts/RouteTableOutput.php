@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing RouteTableOutput
@@ -9,14 +9,14 @@ class RouteTableOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\RouteTableResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\RouteTableResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\RouteTableResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\RouteTableResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class RouteTableOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\RouteTableResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\RouteTableResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\RouteTableResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\RouteTableResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

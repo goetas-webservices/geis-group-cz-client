@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListResponseType $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -105,7 +105,7 @@ class ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListResponseType
      */
     public function getResponseObject()
     {
@@ -115,10 +115,10 @@ class ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListResponseType $responseObject
      * @return self
      */
-    public function setResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType $responseObject)
+    public function setResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListResponseType $responseObject)
     {
         $this->responseObject = $responseObject;
         return $this;

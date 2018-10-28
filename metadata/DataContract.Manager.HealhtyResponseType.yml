@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType:
     properties:
         created:
             expose: true

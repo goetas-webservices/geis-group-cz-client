@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfWrapRequestArrayOfWrappMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfWrapRequestArrayOfWrappMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfWrapRequestAr
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfWrapRequestAr
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType>
             xml_list:
                 inline: false
                 entry_name: Wrap

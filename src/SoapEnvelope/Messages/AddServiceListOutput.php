@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing AddServiceListOutput
@@ -9,7 +9,7 @@ class AddServiceListOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\AddServiceListOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class AddServiceListOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\AddServiceListOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class AddServiceListOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\AddServiceListOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\AddServiceListOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\AddServiceListOutput $body)
     {
         $this->body = $body;
         return $this;

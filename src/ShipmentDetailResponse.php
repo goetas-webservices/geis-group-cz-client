@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing ShipmentDetailResponse
@@ -9,14 +9,14 @@ class ShipmentDetailResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult
      */
     private $shipmentDetailResult = null;
 
     /**
      * Gets as shipmentDetailResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType
      */
     public function getShipmentDetailResult()
     {
@@ -26,10 +26,10 @@ class ShipmentDetailResponse
     /**
      * Sets a new shipmentDetailResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult
      * @return self
      */
-    public function setShipmentDetailResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult)
+    public function setShipmentDetailResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentReqeustShipmentpMtQ0fwNType $shipmentDetailResult)
     {
         $this->shipmentDetailResult = $shipmentDetailResult;
         return $this;

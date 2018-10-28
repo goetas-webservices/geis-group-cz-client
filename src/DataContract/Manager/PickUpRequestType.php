@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing PickUpRequestType
@@ -12,7 +12,7 @@ class PickUpRequestType extends RequestObjectBaseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $contact
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $contact
      */
     private $contact = null;
 
@@ -42,7 +42,7 @@ class PickUpRequestType extends RequestObjectBaseType
     private $note = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[] $pickUpItems
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[] $pickUpItems
      */
     private $pickUpItems = null;
 
@@ -59,7 +59,7 @@ class PickUpRequestType extends RequestObjectBaseType
     /**
      * Gets as contact
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType
      */
     public function getContact()
     {
@@ -69,10 +69,10 @@ class PickUpRequestType extends RequestObjectBaseType
     /**
      * Sets a new contact
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $contact
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $contact
      * @return self
      */
-    public function setContact(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $contact)
+    public function setContact(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $contact)
     {
         $this->contact = $contact;
         return $this;
@@ -192,9 +192,9 @@ class PickUpRequestType extends RequestObjectBaseType
      * Adds as pickUpItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType $pickUpItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType $pickUpItem
      */
-    public function addToPickUpItems(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType $pickUpItem)
+    public function addToPickUpItems(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType $pickUpItem)
     {
         $this->pickUpItems[] = $pickUpItem;
         return $this;
@@ -225,7 +225,7 @@ class PickUpRequestType extends RequestObjectBaseType
     /**
      * Gets as pickUpItems
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[]
      */
     public function getPickUpItems()
     {
@@ -235,7 +235,7 @@ class PickUpRequestType extends RequestObjectBaseType
     /**
      * Sets a new pickUpItems
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType[] $pickUpItems
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickUpItemType[] $pickUpItems
      * @return self
      */
     public function setPickUpItems(array $pickUpItems)

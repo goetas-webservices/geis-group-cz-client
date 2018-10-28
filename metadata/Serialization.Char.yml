@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\Serialization\Char:
+GoetasWebservices\Client\GeisGroupCz\Serialization\Char:
     xml_root_name: char
     xml_root_namespace: 'http://schemas.microsoft.com/2003/10/Serialization/'
     properties:

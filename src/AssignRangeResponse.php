@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing AssignRangeResponse
@@ -9,14 +9,14 @@ class AssignRangeResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult
      */
     private $assignRangeResult = null;
 
     /**
      * Gets as assignRangeResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType
      */
     public function getAssignRangeResult()
     {
@@ -26,10 +26,10 @@ class AssignRangeResponse
     /**
      * Sets a new assignRangeResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult
      * @return self
      */
-    public function setAssignRangeResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult)
+    public function setAssignRangeResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeRequestRangepMtQ0fwNType $assignRangeResult)
     {
         $this->assignRangeResult = $assignRangeResult;
         return $this;

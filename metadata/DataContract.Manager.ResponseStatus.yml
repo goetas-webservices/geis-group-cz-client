@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseStatus:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseStatus:
     xml_root_name: ResponseStatus
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
     properties:

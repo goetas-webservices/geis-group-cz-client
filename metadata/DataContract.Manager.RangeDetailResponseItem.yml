@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItem:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItem:
     xml_root_name: RangeDetailResponseItem
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\Serialization\UnsignedByte:
+GoetasWebservices\Client\GeisGroupCz\Serialization\UnsignedByte:
     xml_root_name: unsignedByte
     xml_root_namespace: 'http://schemas.microsoft.com/2003/10/Serialization/'
     properties:

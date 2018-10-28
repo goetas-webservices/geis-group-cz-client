@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfDeleteShipmentItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfDeleteShipmentItemType:
     properties:
         deleteShipmentItem:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfDeleteShipmentIt
                 inline: true
                 entry_name: DeleteShipmentItem
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType>

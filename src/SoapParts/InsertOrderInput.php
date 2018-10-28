@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing InsertOrderInput
@@ -9,14 +9,14 @@ class InsertOrderInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\InsertOrder $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\InsertOrder $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\InsertOrder
+     * @return \GoetasWebservices\Client\GeisGroupCz\InsertOrder
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class InsertOrderInput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\InsertOrder $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\InsertOrder $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\InsertOrder $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\InsertOrder $parameters)
     {
         $this->parameters = $parameters;
         return $this;

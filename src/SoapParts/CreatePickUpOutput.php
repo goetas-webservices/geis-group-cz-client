@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing CreatePickUpOutput
@@ -9,14 +9,14 @@ class CreatePickUpOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\CreatePickUpResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\CreatePickUpResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class CreatePickUpOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\CreatePickUpResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\CreatePickUpResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

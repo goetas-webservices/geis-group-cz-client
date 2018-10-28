@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Headers\AddServiceListInput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Headers\AddServiceListInput:
     xml_namespaces:
         SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

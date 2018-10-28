@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfPackageServiceType
@@ -12,7 +12,7 @@ class ArrayOfPackageServiceType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[] $packageService
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[] $packageService
      */
     private $packageService = [
         
@@ -22,9 +22,9 @@ class ArrayOfPackageServiceType
      * Adds as packageService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType $packageService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType $packageService
      */
-    public function addToPackageService(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType $packageService)
+    public function addToPackageService(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType $packageService)
     {
         $this->packageService[] = $packageService;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfPackageServiceType
     /**
      * Gets as packageService
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[]
      */
     public function getPackageService()
     {
@@ -65,7 +65,7 @@ class ArrayOfPackageServiceType
     /**
      * Sets a new packageService
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[] $packageService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[] $packageService
      * @return self
      */
     public function setPackageService(array $packageService)

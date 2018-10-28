@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing PickupListRequestType
@@ -22,7 +22,7 @@ class PickupListRequestType extends RequestObjectBaseType
     private $expeditionCreateDate = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[] $shipmentsNumbers
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[] $shipmentsNumbers
      */
     private $shipmentsNumbers = null;
 
@@ -74,9 +74,9 @@ class PickupListRequestType extends RequestObjectBaseType
      * Adds as pickupListShipmItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem
      */
-    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem)
+    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType $pickupListShipmItem)
     {
         $this->shipmentsNumbers[] = $pickupListShipmItem;
         return $this;
@@ -107,7 +107,7 @@ class PickupListRequestType extends RequestObjectBaseType
     /**
      * Gets as shipmentsNumbers
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[]
      */
     public function getShipmentsNumbers()
     {
@@ -117,7 +117,7 @@ class PickupListRequestType extends RequestObjectBaseType
     /**
      * Sets a new shipmentsNumbers
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType[] $shipmentsNumbers
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType[] $shipmentsNumbers
      * @return self
      */
     public function setShipmentsNumbers(array $shipmentsNumbers)

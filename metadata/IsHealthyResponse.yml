@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\IsHealthyResponse:
+GoetasWebservices\Client\GeisGroupCz\IsHealthyResponse:
     xml_root_name: IsHealthyResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\IsHealthyResponse:
             accessor:
                 getter: getIsHealthyResult
                 setter: setIsHealthyResult
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\HealhtyResponseType

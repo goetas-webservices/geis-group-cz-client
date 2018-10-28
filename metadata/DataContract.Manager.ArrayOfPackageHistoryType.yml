@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageHistoryType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfPackageHistoryType:
     properties:
         packageHistory:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageHistoryTy
                 inline: true
                 entry_name: PackageHistory
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType>

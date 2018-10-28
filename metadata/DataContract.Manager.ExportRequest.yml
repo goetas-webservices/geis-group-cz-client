@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportRequest:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportRequest:
     xml_root_name: ExportRequest
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

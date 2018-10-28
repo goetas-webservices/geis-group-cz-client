@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing RouteTableType
@@ -37,7 +37,7 @@ class RouteTableType
     private $validDate = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType $zipCodes
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType $zipCodes
      */
     private $zipCodes = null;
 
@@ -154,7 +154,7 @@ class RouteTableType
     /**
      * Gets as zipCodes
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType
      */
     public function getZipCodes()
     {
@@ -164,10 +164,10 @@ class RouteTableType
     /**
      * Sets a new zipCodes
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType $zipCodes
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType $zipCodes
      * @return self
      */
-    public function setZipCodes(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType $zipCodes)
+    public function setZipCodes(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType $zipCodes)
     {
         $this->zipCodes = $zipCodes;
         return $this;

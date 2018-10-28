@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[] $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[] $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -106,9 +106,9 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
      * Adds as addService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType $addService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType $addService
      */
-    public function addToResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType $addService)
+    public function addToResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType $addService)
     {
         $this->responseObject[] = $addService;
         return $this;
@@ -139,7 +139,7 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[]
      */
     public function getResponseObject()
     {
@@ -149,7 +149,7 @@ class ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[] $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[] $responseObject
      * @return self
      */
     public function setResponseObject(array $responseObject)

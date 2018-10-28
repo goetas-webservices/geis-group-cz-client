@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfMergedItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfMergedItemType:
     properties:
         mergedItem:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfMergedItemType:
                 inline: true
                 entry_name: MergedItem
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType>

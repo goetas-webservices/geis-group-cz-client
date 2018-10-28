@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfAddServiceRequestArrayOfAddServicepMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfAddServiceReq
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfAddServiceReq
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType>
             xml_list:
                 inline: false
                 entry_name: AddService

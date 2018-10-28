@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing IsHealthyInput
@@ -9,14 +9,14 @@ class IsHealthyInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\IsHealthy $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\IsHealthy $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\IsHealthy
+     * @return \GoetasWebservices\Client\GeisGroupCz\IsHealthy
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class IsHealthyInput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\IsHealthy $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\IsHealthy $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\IsHealthy $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\IsHealthy $parameters)
     {
         $this->parameters = $parameters;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfStatusType
@@ -12,7 +12,7 @@ class ArrayOfStatusType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType[] $status
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType[] $status
      */
     private $status = [
         
@@ -22,9 +22,9 @@ class ArrayOfStatusType
      * Adds as status
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType $status
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType $status
      */
-    public function addToStatus(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType $status)
+    public function addToStatus(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType $status)
     {
         $this->status[] = $status;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfStatusType
     /**
      * Gets as status
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType[]
      */
     public function getStatus()
     {
@@ -65,7 +65,7 @@ class ArrayOfStatusType
     /**
      * Sets a new status
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType[] $status
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType[] $status
      * @return self
      */
     public function setStatus(array $status)

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfShipmentResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfShipmentResponseType:
     properties:
         shipmentResponse:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfShipmentResponse
                 inline: true
                 entry_name: ShipmentResponse
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType>

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\IsHealthyInput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages\IsHealthyInput:
     xml_root_name: 'SOAP:Envelope'
     xml_root_namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
     xml_namespaces:
@@ -7,7 +7,7 @@ GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\IsHealthyInput:
         body:
             expose: true
             access_type: public_method
-            type: GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyInput
+            type: GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyInput
             serialized_name: Body
             xml_element:
                 namespace: 'http://schemas.xmlsoap.org/soap/envelope/'

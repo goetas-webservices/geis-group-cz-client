@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageRowType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfPackageRowType:
     properties:
         packageRow:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageRowType:
                 inline: true
                 entry_name: PackageRow
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType>

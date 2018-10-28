@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\GetPickupListInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\GetPickupListInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: GetPickupList
-            type: GoetasWebservices\Client\GeisGrouCz\GetPickupList
+            type: GoetasWebservices\Client\GeisGroupCz\GetPickupList

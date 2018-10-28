@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfRangeRequestRangepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfRangeRequestRangepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfRangeRequestRangepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfRangeRequestRangepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -105,7 +105,7 @@ class ResponseOfRangeRequestRangepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType
      */
     public function getResponseObject()
     {
@@ -115,10 +115,10 @@ class ResponseOfRangeRequestRangepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType $responseObject
      * @return self
      */
-    public function setResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType $responseObject)
+    public function setResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeType $responseObject)
     {
         $this->responseObject = $responseObject;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing GetCurrenciesOutput
@@ -9,7 +9,7 @@ class GetCurrenciesOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetCurrenciesOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class GetCurrenciesOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetCurrenciesOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class GetCurrenciesOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\GetCurrenciesOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\GetCurrenciesOutput $body)
     {
         $this->body = $body;
         return $this;

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing RangeDetailResponse
@@ -9,14 +9,14 @@ class RangeDetailResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult
      */
     private $rangeDetailResult = null;
 
     /**
      * Gets as rangeDetailResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType
      */
     public function getRangeDetailResult()
     {
@@ -26,10 +26,10 @@ class RangeDetailResponse
     /**
      * Sets a new rangeDetailResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult
      * @return self
      */
-    public function setRangeDetailResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult)
+    public function setRangeDetailResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType $rangeDetailResult)
     {
         $this->rangeDetailResult = $rangeDetailResult;
         return $this;

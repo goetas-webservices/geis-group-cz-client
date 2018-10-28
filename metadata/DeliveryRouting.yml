@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DeliveryRouting:
+GoetasWebservices\Client\GeisGroupCz\DeliveryRouting:
     xml_root_name: DeliveryRouting
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\DeliveryRouting:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType

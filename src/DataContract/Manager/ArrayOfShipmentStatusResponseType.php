@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfShipmentStatusResponseType
@@ -12,7 +12,7 @@ class ArrayOfShipmentStatusResponseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType[] $shipmentStatusResponse
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType[] $shipmentStatusResponse
      */
     private $shipmentStatusResponse = [
         
@@ -22,9 +22,9 @@ class ArrayOfShipmentStatusResponseType
      * Adds as shipmentStatusResponse
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType $shipmentStatusResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType $shipmentStatusResponse
      */
-    public function addToShipmentStatusResponse(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType $shipmentStatusResponse)
+    public function addToShipmentStatusResponse(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType $shipmentStatusResponse)
     {
         $this->shipmentStatusResponse[] = $shipmentStatusResponse;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfShipmentStatusResponseType
     /**
      * Gets as shipmentStatusResponse
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType[]
      */
     public function getShipmentStatusResponse()
     {
@@ -65,7 +65,7 @@ class ArrayOfShipmentStatusResponseType
     /**
      * Sets a new shipmentStatusResponse
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType[] $shipmentStatusResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType[] $shipmentStatusResponse
      * @return self
      */
     public function setShipmentStatusResponse(array $shipmentStatusResponse)

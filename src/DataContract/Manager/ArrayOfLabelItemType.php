@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfLabelItemType
@@ -12,7 +12,7 @@ class ArrayOfLabelItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[] $labelItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[] $labelItem
      */
     private $labelItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfLabelItemType
      * Adds as labelItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType $labelItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType $labelItem
      */
-    public function addToLabelItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType $labelItem)
+    public function addToLabelItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType $labelItem)
     {
         $this->labelItem[] = $labelItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfLabelItemType
     /**
      * Gets as labelItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[]
      */
     public function getLabelItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfLabelItemType
     /**
      * Sets a new labelItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[] $labelItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[] $labelItem
      * @return self
      */
     public function setLabelItem(array $labelItem)

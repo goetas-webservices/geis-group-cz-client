@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingType:
     properties:
         deliveryRoute:
             expose: true

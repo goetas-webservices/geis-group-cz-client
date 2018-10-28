@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType:
     properties:
         lastUsedNumber:
             expose: true

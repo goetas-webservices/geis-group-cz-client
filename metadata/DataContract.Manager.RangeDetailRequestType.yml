@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailRequestType:
     properties:
         distributionChannel:
             expose: true

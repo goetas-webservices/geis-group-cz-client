@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfDeleteShipmentItemType
@@ -12,7 +12,7 @@ class ArrayOfDeleteShipmentItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[] $deleteShipmentItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[] $deleteShipmentItem
      */
     private $deleteShipmentItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfDeleteShipmentItemType
      * Adds as deleteShipmentItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem
      */
-    public function addToDeleteShipmentItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem)
+    public function addToDeleteShipmentItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType $deleteShipmentItem)
     {
         $this->deleteShipmentItem[] = $deleteShipmentItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfDeleteShipmentItemType
     /**
      * Gets as deleteShipmentItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[]
      */
     public function getDeleteShipmentItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfDeleteShipmentItemType
     /**
      * Sets a new deleteShipmentItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType[] $deleteShipmentItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeleteShipmentItemType[] $deleteShipmentItem
      * @return self
      */
     public function setDeleteShipmentItem(array $deleteShipmentItem)

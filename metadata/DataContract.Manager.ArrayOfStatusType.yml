@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfStatusType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfStatusType:
     properties:
         status:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfStatusType:
                 inline: true
                 entry_name: Status
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType>

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfColliHistoryType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfColliHistoryType:
     properties:
         colliHistory:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfColliHistoryType
                 inline: true
                 entry_name: ColliHistory
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType>

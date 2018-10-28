@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing DeleteShipmentResponse
@@ -9,14 +9,14 @@ class DeleteShipmentResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult
      */
     private $deleteShipmentResult = null;
 
     /**
      * Gets as deleteShipmentResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType
      */
     public function getDeleteShipmentResult()
     {
@@ -26,10 +26,10 @@ class DeleteShipmentResponse
     /**
      * Sets a new deleteShipmentResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult
      * @return self
      */
-    public function setDeleteShipmentResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult)
+    public function setDeleteShipmentResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType $deleteShipmentResult)
     {
         $this->deleteShipmentResult = $deleteShipmentResult;
         return $this;

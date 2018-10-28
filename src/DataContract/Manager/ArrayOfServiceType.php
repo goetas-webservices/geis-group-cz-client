@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfServiceType
@@ -12,7 +12,7 @@ class ArrayOfServiceType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType[] $service
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType[] $service
      */
     private $service = [
         
@@ -22,9 +22,9 @@ class ArrayOfServiceType
      * Adds as service
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType $service
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType $service
      */
-    public function addToService(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType $service)
+    public function addToService(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType $service)
     {
         $this->service[] = $service;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfServiceType
     /**
      * Gets as service
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType[]
      */
     public function getService()
     {
@@ -65,7 +65,7 @@ class ArrayOfServiceType
     /**
      * Sets a new service
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceType[] $service
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ServiceType[] $service
      * @return self
      */
     public function setService(array $service)

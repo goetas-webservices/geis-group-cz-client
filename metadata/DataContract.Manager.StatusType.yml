@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusType:
     properties:
         code:
             expose: true

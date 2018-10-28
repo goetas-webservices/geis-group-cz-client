@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfLabelItemDataType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfLabelItemDataType:
     properties:
         labelItemData:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfLabelItemDataTyp
                 inline: true
                 entry_name: LabelItemData
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemDataType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemDataType>

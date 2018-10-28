@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing InsertExportResponse
@@ -9,14 +9,14 @@ class InsertExportResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult
      */
     private $insertExportResult = null;
 
     /**
      * Gets as insertExportResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType
      */
     public function getInsertExportResult()
     {
@@ -26,10 +26,10 @@ class InsertExportResponse
     /**
      * Sets a new insertExportResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult
      * @return self
      */
-    public function setInsertExportResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult)
+    public function setInsertExportResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfExportRequestExportpMtQ0fwNType $insertExportResult)
     {
         $this->insertExportResult = $insertExportResult;
         return $this;

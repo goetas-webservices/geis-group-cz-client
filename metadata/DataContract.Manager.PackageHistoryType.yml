@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType:
     properties:
         depName:
             expose: true

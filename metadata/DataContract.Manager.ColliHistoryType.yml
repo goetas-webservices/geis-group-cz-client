@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType:
     properties:
         colliNumber:
             expose: true

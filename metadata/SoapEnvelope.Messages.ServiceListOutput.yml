@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\ServiceListOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages\ServiceListOutput:
     xml_root_name: 'SOAP:Envelope'
     xml_root_namespace: 'http://schemas.xmlsoap.org/soap/envelope/'
     xml_namespaces:
@@ -7,7 +7,7 @@ GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages\ServiceListOutput:
         body:
             expose: true
             access_type: public_method
-            type: GoetasWebservices\Client\GeisGrouCz\SoapParts\ServiceListOutput
+            type: GoetasWebservices\Client\GeisGroupCz\SoapParts\ServiceListOutput
             serialized_name: Body
             xml_element:
                 namespace: 'http://schemas.xmlsoap.org/soap/envelope/'

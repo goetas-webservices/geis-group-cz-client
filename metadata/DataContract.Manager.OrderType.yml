@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\OrderType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\OrderType:
     properties:
         burstId:
             expose: true

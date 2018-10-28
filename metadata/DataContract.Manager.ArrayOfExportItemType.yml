@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfExportItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfExportItemType:
     properties:
         exportItem:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfExportItemType:
                 inline: true
                 entry_name: ExportItem
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType>

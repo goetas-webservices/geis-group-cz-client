@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
@@ -22,12 +22,12 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
     private $errorMessage = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request
      */
     private $request = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[] $responseObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[] $responseObject
      */
     private $responseObject = null;
 
@@ -83,7 +83,7 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
     /**
      * Gets as request
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType
      */
     public function getRequest()
     {
@@ -93,10 +93,10 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
     /**
      * Sets a new request
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request
      * @return self
      */
-    public function setRequest(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request)
+    public function setRequest(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request)
     {
         $this->request = $request;
         return $this;
@@ -106,9 +106,9 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
      * Adds as routeTable
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType $routeTable
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType $routeTable
      */
-    public function addToResponseObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType $routeTable)
+    public function addToResponseObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType $routeTable)
     {
         $this->responseObject[] = $routeTable;
         return $this;
@@ -139,7 +139,7 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
     /**
      * Gets as responseObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[]
      */
     public function getResponseObject()
     {
@@ -149,7 +149,7 @@ class ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType
     /**
      * Sets a new responseObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[] $responseObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[] $responseObject
      * @return self
      */
     public function setResponseObject(array $responseObject)

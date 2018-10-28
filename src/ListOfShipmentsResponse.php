@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing ListOfShipmentsResponse
@@ -9,14 +9,14 @@ class ListOfShipmentsResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult
      */
     private $listOfShipmentsResult = null;
 
     /**
      * Gets as listOfShipmentsResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType
      */
     public function getListOfShipmentsResult()
     {
@@ -26,10 +26,10 @@ class ListOfShipmentsResponse
     /**
      * Sets a new listOfShipmentsResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult
      * @return self
      */
-    public function setListOfShipmentsResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult)
+    public function setListOfShipmentsResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType $listOfShipmentsResult)
     {
         $this->listOfShipmentsResult = $listOfShipmentsResult;
         return $this;

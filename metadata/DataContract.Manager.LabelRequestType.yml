@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelRequestType:
     properties:
         distributionChannel:
             expose: true
@@ -49,7 +49,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelRequestType:
             accessor:
                 getter: getShipmentNumbers
                 setter: setShipmentNumbers
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType>
             xml_list:
                 inline: false
                 entry_name: LabelItem

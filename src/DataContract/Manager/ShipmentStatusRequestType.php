@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ShipmentStatusRequestType
@@ -12,7 +12,7 @@ class ShipmentStatusRequestType extends RequestObjectBaseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentsNumbers
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentsNumbers
      */
     private $shipmentsNumbers = null;
 
@@ -20,9 +20,9 @@ class ShipmentStatusRequestType extends RequestObjectBaseType
      * Adds as shipmentStatusItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem
      */
-    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem)
+    public function addToShipmentsNumbers(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem)
     {
         $this->shipmentsNumbers[] = $shipmentStatusItem;
         return $this;
@@ -53,7 +53,7 @@ class ShipmentStatusRequestType extends RequestObjectBaseType
     /**
      * Gets as shipmentsNumbers
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[]
      */
     public function getShipmentsNumbers()
     {
@@ -63,7 +63,7 @@ class ShipmentStatusRequestType extends RequestObjectBaseType
     /**
      * Sets a new shipmentsNumbers
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentsNumbers
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentsNumbers
      * @return self
      */
     public function setShipmentsNumbers(array $shipmentsNumbers)

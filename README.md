@@ -27,8 +27,8 @@ composer require goetas-webservices/geis-group-cz-client
 
 use GoetasWebservices\SoapServices\SoapClient\ClientFactory;
 use GoetasWebservices\SoapServices\SoapClient\Builder\SoapContainerBuilder;
-use GoetasWebservices\Client\GeisGrouCz\SoapContainer;
-use GoetasWebservices\Client\GeisGrouCz\SoapStubs\IGService;
+use GoetasWebservices\Client\GeisGroupCz\SoapContainer;
+use GoetasWebservices\Client\GeisGroupCz\SoapStubs\IGService;
 
 require __DIR__ . '/vendor/autoload.php';
 

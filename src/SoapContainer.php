@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 use Symfony\Component\DependencyInjection\Argument\RewindableGenerator;
 use Symfony\Component\DependencyInjection\ContainerInterface;
@@ -193,17 +193,17 @@ class SoapContainer extends Container
                                     'name' => 'ServiceList',
                                     'method' => 'serviceList',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ServiceListInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ServiceListInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ServiceListInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ServiceListInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ServiceListInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ServiceListInput',
                                         'parts' => array(
                                             'parameters' => 'ServiceList',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ServiceListOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ServiceListOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ServiceListOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ServiceListOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ServiceListOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ServiceListOutput',
                                         'parts' => array(
                                             'parameters' => 'ServiceListResponse',
                                         ),
@@ -219,17 +219,17 @@ class SoapContainer extends Container
                                     'name' => 'AddServiceList',
                                     'method' => 'addServiceList',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\AddServiceListInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\AddServiceListInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\AddServiceListInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\AddServiceListInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\AddServiceListInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\AddServiceListInput',
                                         'parts' => array(
                                             'parameters' => 'AddServiceList',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\AddServiceListOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\AddServiceListOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\AddServiceListOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\AddServiceListOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\AddServiceListOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\AddServiceListOutput',
                                         'parts' => array(
                                             'parameters' => 'AddServiceListResponse',
                                         ),
@@ -245,17 +245,17 @@ class SoapContainer extends Container
                                     'name' => 'StatusList',
                                     'method' => 'statusList',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\StatusListInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\StatusListInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\StatusListInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\StatusListInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\StatusListInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\StatusListInput',
                                         'parts' => array(
                                             'parameters' => 'StatusList',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\StatusListOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\StatusListOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\StatusListOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\StatusListOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\StatusListOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\StatusListOutput',
                                         'parts' => array(
                                             'parameters' => 'StatusListResponse',
                                         ),
@@ -271,17 +271,17 @@ class SoapContainer extends Container
                                     'name' => 'WrapList',
                                     'method' => 'wrapList',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\WrapListInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\WrapListInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\WrapListInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\WrapListInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\WrapListInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\WrapListInput',
                                         'parts' => array(
                                             'parameters' => 'WrapList',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\WrapListOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\WrapListOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\WrapListOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\WrapListOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\WrapListOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\WrapListOutput',
                                         'parts' => array(
                                             'parameters' => 'WrapListResponse',
                                         ),
@@ -297,17 +297,17 @@ class SoapContainer extends Container
                                     'name' => 'DeliveryRouting',
                                     'method' => 'deliveryRouting',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\DeliveryRoutingInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\DeliveryRoutingInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\DeliveryRoutingInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\DeliveryRoutingInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\DeliveryRoutingInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\DeliveryRoutingInput',
                                         'parts' => array(
                                             'parameters' => 'DeliveryRouting',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\DeliveryRoutingOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\DeliveryRoutingOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\DeliveryRoutingOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\DeliveryRoutingOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\DeliveryRoutingOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\DeliveryRoutingOutput',
                                         'parts' => array(
                                             'parameters' => 'DeliveryRoutingResponse',
                                         ),
@@ -323,17 +323,17 @@ class SoapContainer extends Container
                                     'name' => 'ShipmentDetail',
                                     'method' => 'shipmentDetail',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ShipmentDetailInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ShipmentDetailInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ShipmentDetailInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ShipmentDetailInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ShipmentDetailInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ShipmentDetailInput',
                                         'parts' => array(
                                             'parameters' => 'ShipmentDetail',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ShipmentDetailOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ShipmentDetailOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ShipmentDetailOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ShipmentDetailOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ShipmentDetailOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ShipmentDetailOutput',
                                         'parts' => array(
                                             'parameters' => 'ShipmentDetailResponse',
                                         ),
@@ -349,17 +349,17 @@ class SoapContainer extends Container
                                     'name' => 'RouteTable',
                                     'method' => 'routeTable',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\RouteTableInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\RouteTableInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\RouteTableInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\RouteTableInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\RouteTableInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\RouteTableInput',
                                         'parts' => array(
                                             'parameters' => 'RouteTable',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\RouteTableOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\RouteTableOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\RouteTableOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\RouteTableOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\RouteTableOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\RouteTableOutput',
                                         'parts' => array(
                                             'parameters' => 'RouteTableResponse',
                                         ),
@@ -375,17 +375,17 @@ class SoapContainer extends Container
                                     'name' => 'CreatePickUp',
                                     'method' => 'createPickUp',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\CreatePickUpInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\CreatePickUpInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\CreatePickUpInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\CreatePickUpInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\CreatePickUpInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\CreatePickUpInput',
                                         'parts' => array(
                                             'parameters' => 'CreatePickUp',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\CreatePickUpOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\CreatePickUpOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\CreatePickUpOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\CreatePickUpOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\CreatePickUpOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\CreatePickUpOutput',
                                         'parts' => array(
                                             'parameters' => 'CreatePickUpResponse',
                                         ),
@@ -401,17 +401,17 @@ class SoapContainer extends Container
                                     'name' => 'InsertExport',
                                     'method' => 'insertExport',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\InsertExportInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\InsertExportInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\InsertExportInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\InsertExportInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\InsertExportInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\InsertExportInput',
                                         'parts' => array(
                                             'parameters' => 'InsertExport',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\InsertExportOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\InsertExportOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\InsertExportOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\InsertExportOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\InsertExportOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\InsertExportOutput',
                                         'parts' => array(
                                             'parameters' => 'InsertExportResponse',
                                         ),
@@ -427,17 +427,17 @@ class SoapContainer extends Container
                                     'name' => 'InsertOrder',
                                     'method' => 'insertOrder',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\InsertOrderInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\InsertOrderInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\InsertOrderInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\InsertOrderInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\InsertOrderInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\InsertOrderInput',
                                         'parts' => array(
                                             'parameters' => 'InsertOrder',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\InsertOrderOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\InsertOrderOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\InsertOrderOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\InsertOrderOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\InsertOrderOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\InsertOrderOutput',
                                         'parts' => array(
                                             'parameters' => 'InsertOrderResponse',
                                         ),
@@ -453,17 +453,17 @@ class SoapContainer extends Container
                                     'name' => 'AssignRange',
                                     'method' => 'assignRange',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\AssignRangeInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\AssignRangeInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\AssignRangeInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\AssignRangeInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\AssignRangeInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\AssignRangeInput',
                                         'parts' => array(
                                             'parameters' => 'AssignRange',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\AssignRangeOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\AssignRangeOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\AssignRangeOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\AssignRangeOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\AssignRangeOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\AssignRangeOutput',
                                         'parts' => array(
                                             'parameters' => 'AssignRangeResponse',
                                         ),
@@ -479,17 +479,17 @@ class SoapContainer extends Container
                                     'name' => 'IsHealthy',
                                     'method' => 'isHealthy',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\IsHealthyInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\IsHealthyInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\IsHealthyInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\IsHealthyInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\IsHealthyInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\IsHealthyInput',
                                         'parts' => array(
                                             'parameters' => 'IsHealthy',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\IsHealthyOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\IsHealthyOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\IsHealthyOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\IsHealthyOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\IsHealthyOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\IsHealthyOutput',
                                         'parts' => array(
                                             'parameters' => 'IsHealthyResponse',
                                         ),
@@ -505,17 +505,17 @@ class SoapContainer extends Container
                                     'name' => 'GetCurrencies',
                                     'method' => 'getCurrencies',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetCurrenciesInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetCurrenciesInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetCurrenciesInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetCurrenciesInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetCurrenciesInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetCurrenciesInput',
                                         'parts' => array(
                                             'parameters' => 'GetCurrencies',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetCurrenciesOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetCurrenciesOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetCurrenciesOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetCurrenciesOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetCurrenciesOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetCurrenciesOutput',
                                         'parts' => array(
                                             'parameters' => 'GetCurrenciesResponse',
                                         ),
@@ -531,17 +531,17 @@ class SoapContainer extends Container
                                     'name' => 'GetLabel',
                                     'method' => 'getLabel',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetLabelInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetLabelInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetLabelInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetLabelInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetLabelInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetLabelInput',
                                         'parts' => array(
                                             'parameters' => 'GetLabel',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetLabelOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetLabelOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetLabelOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetLabelOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetLabelOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetLabelOutput',
                                         'parts' => array(
                                             'parameters' => 'GetLabelResponse',
                                         ),
@@ -557,17 +557,17 @@ class SoapContainer extends Container
                                     'name' => 'ListOfShipments',
                                     'method' => 'listOfShipments',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ListOfShipmentsInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ListOfShipmentsInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ListOfShipmentsInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ListOfShipmentsInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ListOfShipmentsInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ListOfShipmentsInput',
                                         'parts' => array(
                                             'parameters' => 'ListOfShipments',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ListOfShipmentsOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ListOfShipmentsOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ListOfShipmentsOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ListOfShipmentsOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ListOfShipmentsOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ListOfShipmentsOutput',
                                         'parts' => array(
                                             'parameters' => 'ListOfShipmentsResponse',
                                         ),
@@ -583,17 +583,17 @@ class SoapContainer extends Container
                                     'name' => 'ShipmentStatus',
                                     'method' => 'shipmentStatus',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ShipmentStatusInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ShipmentStatusInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ShipmentStatusInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ShipmentStatusInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ShipmentStatusInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ShipmentStatusInput',
                                         'parts' => array(
                                             'parameters' => 'ShipmentStatus',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\ShipmentStatusOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\ShipmentStatusOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\ShipmentStatusOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\ShipmentStatusOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\ShipmentStatusOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\ShipmentStatusOutput',
                                         'parts' => array(
                                             'parameters' => 'ShipmentStatusResponse',
                                         ),
@@ -609,17 +609,17 @@ class SoapContainer extends Container
                                     'name' => 'GetPickupList',
                                     'method' => 'getPickupList',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetPickupListInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetPickupListInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetPickupListInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetPickupListInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetPickupListInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetPickupListInput',
                                         'parts' => array(
                                             'parameters' => 'GetPickupList',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\GetPickupListOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\GetPickupListOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\GetPickupListOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\GetPickupListOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\GetPickupListOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\GetPickupListOutput',
                                         'parts' => array(
                                             'parameters' => 'GetPickupListResponse',
                                         ),
@@ -635,17 +635,17 @@ class SoapContainer extends Container
                                     'name' => 'DeleteShipment',
                                     'method' => 'deleteShipment',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\DeleteShipmentInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\DeleteShipmentInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\DeleteShipmentInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\DeleteShipmentInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\DeleteShipmentInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\DeleteShipmentInput',
                                         'parts' => array(
                                             'parameters' => 'DeleteShipment',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\DeleteShipmentOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\DeleteShipmentOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\DeleteShipmentOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\DeleteShipmentOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\DeleteShipmentOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\DeleteShipmentOutput',
                                         'parts' => array(
                                             'parameters' => 'DeleteShipmentResponse',
                                         ),
@@ -661,17 +661,17 @@ class SoapContainer extends Container
                                     'name' => 'RangeDetail',
                                     'method' => 'rangeDetail',
                                     'input' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\RangeDetailInput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\RangeDetailInput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\RangeDetailInput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\RangeDetailInput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\RangeDetailInput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\RangeDetailInput',
                                         'parts' => array(
                                             'parameters' => 'RangeDetail',
                                         ),
                                     ),
                                     'output' => array(
-                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Messages\\RangeDetailOutput',
-                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapEnvelope\\Headers\\RangeDetailOutput',
-                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGrouCz\\SoapParts\\RangeDetailOutput',
+                                        'message_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Messages\\RangeDetailOutput',
+                                        'headers_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapEnvelope\\Headers\\RangeDetailOutput',
+                                        'part_fqcn' => 'GoetasWebservices\\Client\\GeisGroupCz\\SoapParts\\RangeDetailOutput',
                                         'parts' => array(
                                             'parameters' => 'RangeDetailResponse',
                                         ),
@@ -689,16 +689,16 @@ class SoapContainer extends Container
             ),
             'goetas_webservices.soap_client.config' => array(
                 'namespaces' => array(
-                    'http://tempuri.org/' => 'GoetasWebservices\\Client\\GeisGrouCz',
-                    'http://schemas.datacontract.org/2004/07/GService.Manager' => 'GoetasWebservices\\Client\\GeisGrouCz\\DataContract\\Manager',
-                    'http://schemas.microsoft.com/2003/10/Serialization/' => 'GoetasWebservices\\Client\\GeisGrouCz\\Serialization',
-                    'http://schemas.microsoft.com/2003/10/Serialization/Arrays' => 'GoetasWebservices\\Client\\GeisGrouCz\\Serialization\\Arrays',
+                    'http://tempuri.org/' => 'GoetasWebservices\\Client\\GeisGroupCz',
+                    'http://schemas.datacontract.org/2004/07/GService.Manager' => 'GoetasWebservices\\Client\\GeisGroupCz\\DataContract\\Manager',
+                    'http://schemas.microsoft.com/2003/10/Serialization/' => 'GoetasWebservices\\Client\\GeisGroupCz\\Serialization',
+                    'http://schemas.microsoft.com/2003/10/Serialization/Arrays' => 'GoetasWebservices\\Client\\GeisGroupCz\\Serialization\\Arrays',
                 ),
                 'destinations_php' => array(
-                    'GoetasWebservices\\Client\\GeisGrouCz' => 'src',
+                    'GoetasWebservices\\Client\\GeisGroupCz' => 'src',
                 ),
                 'destinations_jms' => array(
-                    'GoetasWebservices\\Client\\GeisGrouCz' => 'metadata',
+                    'GoetasWebservices\\Client\\GeisGroupCz' => 'metadata',
                 ),
                 'metadata' => array(
                     'https://gclient.geis.cz/GService/GService.svc?singlewsdl' => NULL,

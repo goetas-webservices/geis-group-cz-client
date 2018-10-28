@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\GetCurrenciesOutput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\GetCurrenciesOutput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: GetCurrenciesResponse
-            type: GoetasWebservices\Client\GeisGrouCz\GetCurrenciesResponse
+            type: GoetasWebservices\Client\GeisGroupCz\GetCurrenciesResponse

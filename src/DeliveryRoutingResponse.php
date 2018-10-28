@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing DeliveryRoutingResponse
@@ -9,14 +9,14 @@ class DeliveryRoutingResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult
      */
     private $deliveryRoutingResult = null;
 
     /**
      * Gets as deliveryRoutingResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType
      */
     public function getDeliveryRoutingResult()
     {
@@ -26,10 +26,10 @@ class DeliveryRoutingResponse
     /**
      * Sets a new deliveryRoutingResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult
      * @return self
      */
-    public function setDeliveryRoutingResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult)
+    public function setDeliveryRoutingResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType $deliveryRoutingResult)
     {
         $this->deliveryRoutingResult = $deliveryRoutingResult;
         return $this;

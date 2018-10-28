@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType:
     properties:
         currency:
             expose: true

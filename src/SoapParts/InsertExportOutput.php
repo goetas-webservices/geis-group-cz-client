@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing InsertExportOutput
@@ -9,14 +9,14 @@ class InsertExportOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\InsertExportResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\InsertExportResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\InsertExportResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\InsertExportResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class InsertExportOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\InsertExportResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\InsertExportResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\InsertExportResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\InsertExportResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

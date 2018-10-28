@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\StatusRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\StatusRequestType:
     properties:
         distributionChannel:
             expose: true

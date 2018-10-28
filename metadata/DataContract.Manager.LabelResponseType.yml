@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelResponseType:
     properties:
         labelData:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType:
             accessor:
                 getter: getLabelData
                 setter: setLabelData
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemDataType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemDataType>
             xml_list:
                 inline: false
                 entry_name: LabelItemData
@@ -24,7 +24,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType:
             accessor:
                 getter: getShipmentNumbers
                 setter: setShipmentNumbers
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType>
             xml_list:
                 inline: false
                 entry_name: LabelItem

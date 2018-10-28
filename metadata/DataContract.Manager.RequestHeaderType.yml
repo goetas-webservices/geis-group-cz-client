@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType:
     properties:
         customerCode:
             expose: true

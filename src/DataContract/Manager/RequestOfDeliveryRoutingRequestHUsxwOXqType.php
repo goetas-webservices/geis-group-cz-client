@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing RequestOfDeliveryRoutingRequestHUsxwOXqType
@@ -12,19 +12,19 @@ class RequestOfDeliveryRoutingRequestHUsxwOXqType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      */
     private $header = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject
      */
     private $requestObject = null;
 
     /**
      * Gets as header
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType
      */
     public function getHeader()
     {
@@ -34,10 +34,10 @@ class RequestOfDeliveryRoutingRequestHUsxwOXqType
     /**
      * Sets a new header
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header
      * @return self
      */
-    public function setHeader(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType $header)
+    public function setHeader(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType $header)
     {
         $this->header = $header;
         return $this;
@@ -46,7 +46,7 @@ class RequestOfDeliveryRoutingRequestHUsxwOXqType
     /**
      * Gets as requestObject
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType
      */
     public function getRequestObject()
     {
@@ -56,10 +56,10 @@ class RequestOfDeliveryRoutingRequestHUsxwOXqType
     /**
      * Sets a new requestObject
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject
      * @return self
      */
-    public function setRequestObject(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject)
+    public function setRequestObject(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType $requestObject)
     {
         $this->requestObject = $requestObject;
         return $this;

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\GetLabelResponse:
+GoetasWebservices\Client\GeisGroupCz\GetLabelResponse:
     xml_root_name: GetLabelResponse
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\GetLabelResponse:
             accessor:
                 getter: getGetLabelResult
                 setter: setGetLabelResult
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfLabelRequestLabelResponsepMtQ0fwNType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfLabelRequestLabelResponsepMtQ0fwNType

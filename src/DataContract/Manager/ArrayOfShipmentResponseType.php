@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfShipmentResponseType
@@ -12,7 +12,7 @@ class ArrayOfShipmentResponseType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[] $shipmentResponse
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[] $shipmentResponse
      */
     private $shipmentResponse = [
         
@@ -22,9 +22,9 @@ class ArrayOfShipmentResponseType
      * Adds as shipmentResponse
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType $shipmentResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType $shipmentResponse
      */
-    public function addToShipmentResponse(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType $shipmentResponse)
+    public function addToShipmentResponse(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType $shipmentResponse)
     {
         $this->shipmentResponse[] = $shipmentResponse;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfShipmentResponseType
     /**
      * Gets as shipmentResponse
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[]
      */
     public function getShipmentResponse()
     {
@@ -65,7 +65,7 @@ class ArrayOfShipmentResponseType
     /**
      * Sets a new shipmentResponse
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType[] $shipmentResponse
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType[] $shipmentResponse
      * @return self
      */
     public function setShipmentResponse(array $shipmentResponse)

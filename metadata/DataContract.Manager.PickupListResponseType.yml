@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListResponseType:
     properties:
         pickupListData:
             expose: true

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentStatusRequestArrayOfShipmentStatusResponsepMtQ0fwNType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfShipmentStatusRequestArrayOfShipmentStatusResponsepMtQ0fwNType:
     properties:
         errorCode:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentStatu
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType
         responseObject:
             expose: true
             access_type: public_method
@@ -39,7 +39,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentStatu
             accessor:
                 getter: getResponseObject
                 setter: setResponseObject
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponseType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponseType>
             xml_list:
                 inline: false
                 entry_name: ShipmentStatusResponse

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfMergedItemType
@@ -12,7 +12,7 @@ class ArrayOfMergedItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[] $mergedItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[] $mergedItem
      */
     private $mergedItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfMergedItemType
      * Adds as mergedItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType $mergedItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType $mergedItem
      */
-    public function addToMergedItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType $mergedItem)
+    public function addToMergedItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType $mergedItem)
     {
         $this->mergedItem[] = $mergedItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfMergedItemType
     /**
      * Gets as mergedItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[]
      */
     public function getMergedItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfMergedItemType
     /**
      * Sets a new mergedItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[] $mergedItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[] $mergedItem
      * @return self
      */
     public function setMergedItem(array $mergedItem)

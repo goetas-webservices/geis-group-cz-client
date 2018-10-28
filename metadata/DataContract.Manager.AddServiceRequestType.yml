@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceRequestType:
     properties:
         deliveryCountry:
             expose: true

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing GetPickupListResponse
@@ -9,14 +9,14 @@ class GetPickupListResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult
      */
     private $getPickupListResult = null;
 
     /**
      * Gets as getPickupListResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType
      */
     public function getGetPickupListResult()
     {
@@ -26,10 +26,10 @@ class GetPickupListResponse
     /**
      * Sets a new getPickupListResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult
      * @return self
      */
-    public function setGetPickupListResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult)
+    public function setGetPickupListResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType $getPickupListResult)
     {
         $this->getPickupListResult = $getPickupListResult;
         return $this;

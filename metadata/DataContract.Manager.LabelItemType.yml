@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType:
     properties:
         shipmentNumber:
             expose: true

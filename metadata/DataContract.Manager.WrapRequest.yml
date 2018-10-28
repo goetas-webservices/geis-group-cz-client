@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapRequest:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapRequest:
     xml_root_name: WrapRequest
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

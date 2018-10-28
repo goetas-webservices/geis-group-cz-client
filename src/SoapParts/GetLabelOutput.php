@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing GetLabelOutput
@@ -9,14 +9,14 @@ class GetLabelOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\GetLabelResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\GetLabelResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\GetLabelResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\GetLabelResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class GetLabelOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\GetLabelResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\GetLabelResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\GetLabelResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\GetLabelResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

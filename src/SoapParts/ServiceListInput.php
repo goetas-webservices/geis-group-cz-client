@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing ServiceListInput
@@ -9,14 +9,14 @@ class ServiceListInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\ServiceList $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\ServiceList $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\ServiceList
+     * @return \GoetasWebservices\Client\GeisGroupCz\ServiceList
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class ServiceListInput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\ServiceList $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\ServiceList $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\ServiceList $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\ServiceList $parameters)
     {
         $this->parameters = $parameters;
         return $this;

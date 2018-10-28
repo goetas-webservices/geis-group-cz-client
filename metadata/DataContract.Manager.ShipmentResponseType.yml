@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentResponseType:
     properties:
         isOrder:
             expose: true

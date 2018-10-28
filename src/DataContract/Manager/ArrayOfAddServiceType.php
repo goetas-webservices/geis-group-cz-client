@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfAddServiceType
@@ -12,7 +12,7 @@ class ArrayOfAddServiceType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[] $addService
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[] $addService
      */
     private $addService = [
         
@@ -22,9 +22,9 @@ class ArrayOfAddServiceType
      * Adds as addService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType $addService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType $addService
      */
-    public function addToAddService(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType $addService)
+    public function addToAddService(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType $addService)
     {
         $this->addService[] = $addService;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfAddServiceType
     /**
      * Gets as addService
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[]
      */
     public function getAddService()
     {
@@ -65,7 +65,7 @@ class ArrayOfAddServiceType
     /**
      * Sets a new addService
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType[] $addService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddServiceType[] $addService
      * @return self
      */
     public function setAddService(array $addService)

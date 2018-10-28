@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing LabelRequestType
@@ -32,7 +32,7 @@ class LabelRequestType extends RequestObjectBaseType
     private $resolution = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[] $shipmentNumbers
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[] $shipmentNumbers
      */
     private $shipmentNumbers = null;
 
@@ -128,9 +128,9 @@ class LabelRequestType extends RequestObjectBaseType
      * Adds as labelItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType $labelItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType $labelItem
      */
-    public function addToShipmentNumbers(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType $labelItem)
+    public function addToShipmentNumbers(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType $labelItem)
     {
         $this->shipmentNumbers[] = $labelItem;
         return $this;
@@ -161,7 +161,7 @@ class LabelRequestType extends RequestObjectBaseType
     /**
      * Gets as shipmentNumbers
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[]
      */
     public function getShipmentNumbers()
     {
@@ -171,7 +171,7 @@ class LabelRequestType extends RequestObjectBaseType
     /**
      * Sets a new shipmentNumbers
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType[] $shipmentNumbers
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\LabelItemType[] $shipmentNumbers
      * @return self
      */
     public function setShipmentNumbers(array $shipmentNumbers)

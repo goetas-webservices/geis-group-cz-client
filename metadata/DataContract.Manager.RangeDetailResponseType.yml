@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseType:
     properties:
         assignAllowed:
             expose: true
@@ -29,7 +29,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseType
             accessor:
                 getter: getRangeDetailItem
                 setter: setRangeDetailItem
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType>
             xml_list:
                 inline: false
                 entry_name: RangeDetailResponseItem

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\WrapList:
+GoetasWebservices\Client\GeisGroupCz\WrapList:
     xml_root_name: WrapList
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\WrapList:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType

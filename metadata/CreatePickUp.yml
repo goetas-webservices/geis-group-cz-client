@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\CreatePickUp:
+GoetasWebservices\Client\GeisGroupCz\CreatePickUp:
     xml_root_name: CreatePickUp
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\CreatePickUp:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickUpRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickUpRequestHUsxwOXqType

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPickupListShipmItemType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ArrayOfPickupListShipmItemType:
     properties:
         pickupListShipmItem:
             expose: true
@@ -13,4 +13,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPickupListShipmI
                 inline: true
                 entry_name: PickupListShipmItem
                 namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PickupListShipmItemType>

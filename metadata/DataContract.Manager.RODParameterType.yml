@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType:
     properties:
         name:
             expose: true

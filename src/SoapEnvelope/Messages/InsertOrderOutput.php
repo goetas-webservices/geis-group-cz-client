@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing InsertOrderOutput
@@ -9,7 +9,7 @@ class InsertOrderOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderOutput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertOrderOutput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class InsertOrderOutput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderOutput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertOrderOutput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class InsertOrderOutput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderOutput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertOrderOutput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderOutput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertOrderOutput $body)
     {
         $this->body = $body;
         return $this;

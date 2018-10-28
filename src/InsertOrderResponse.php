@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing InsertOrderResponse
@@ -9,14 +9,14 @@ class InsertOrderResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult
      */
     private $insertOrderResult = null;
 
     /**
      * Gets as insertOrderResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType
      */
     public function getInsertOrderResult()
     {
@@ -26,10 +26,10 @@ class InsertOrderResponse
     /**
      * Sets a new insertOrderResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult
      * @return self
      */
-    public function setInsertOrderResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult)
+    public function setInsertOrderResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType $insertOrderResult)
     {
         $this->insertOrderResult = $insertOrderResult;
         return $this;

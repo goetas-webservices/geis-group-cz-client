@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfWrapType
@@ -12,7 +12,7 @@ class ArrayOfWrapType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType[] $wrap
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType[] $wrap
      */
     private $wrap = [
         
@@ -22,9 +22,9 @@ class ArrayOfWrapType
      * Adds as wrap
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType $wrap
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType $wrap
      */
-    public function addToWrap(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType $wrap)
+    public function addToWrap(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType $wrap)
     {
         $this->wrap[] = $wrap;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfWrapType
     /**
      * Gets as wrap
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType[]
      */
     public function getWrap()
     {
@@ -65,7 +65,7 @@ class ArrayOfWrapType
     /**
      * Sets a new wrap
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType[] $wrap
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType[] $wrap
      * @return self
      */
     public function setWrap(array $wrap)

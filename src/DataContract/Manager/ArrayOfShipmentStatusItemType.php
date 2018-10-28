@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfShipmentStatusItemType
@@ -12,7 +12,7 @@ class ArrayOfShipmentStatusItemType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentStatusItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentStatusItem
      */
     private $shipmentStatusItem = [
         
@@ -22,9 +22,9 @@ class ArrayOfShipmentStatusItemType
      * Adds as shipmentStatusItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem
      */
-    public function addToShipmentStatusItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem)
+    public function addToShipmentStatusItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType $shipmentStatusItem)
     {
         $this->shipmentStatusItem[] = $shipmentStatusItem;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfShipmentStatusItemType
     /**
      * Gets as shipmentStatusItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[]
      */
     public function getShipmentStatusItem()
     {
@@ -65,7 +65,7 @@ class ArrayOfShipmentStatusItemType
     /**
      * Sets a new shipmentStatusItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentStatusItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusItemType[] $shipmentStatusItem
      * @return self
      */
     public function setShipmentStatusItem(array $shipmentStatusItem)

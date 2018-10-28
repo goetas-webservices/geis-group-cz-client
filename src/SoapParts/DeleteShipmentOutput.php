@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing DeleteShipmentOutput
@@ -9,14 +9,14 @@ class DeleteShipmentOutput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse
+     * @return \GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class DeleteShipmentOutput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse $parameters)
     {
         $this->parameters = $parameters;
         return $this;

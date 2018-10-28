@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\RouteTable:
+GoetasWebservices\Client\GeisGroupCz\RouteTable:
     xml_root_name: RouteTable
     xml_root_namespace: 'http://tempuri.org/'
     properties:
@@ -11,4 +11,4 @@ GoetasWebservices\Client\GeisGrouCz\RouteTable:
             accessor:
                 getter: getRequest
                 setter: setRequest
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType

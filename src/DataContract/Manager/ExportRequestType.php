@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ExportRequestType
@@ -17,17 +17,17 @@ class ExportRequestType extends RequestObjectBaseType
     private $burstId = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $coverAddress
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $coverAddress
      */
     private $coverAddress = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $deliveryAddress
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $deliveryAddress
      */
     private $deliveryAddress = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $deliveryContact
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $deliveryContact
      */
     private $deliveryContact = null;
 
@@ -37,17 +37,17 @@ class ExportRequestType extends RequestObjectBaseType
     private $distributionChannel = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[] $exportItems
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[] $exportItems
      */
     private $exportItems = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[] $exportServices
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[] $exportServices
      */
     private $exportServices = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[] $mergedPackages
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[] $mergedPackages
      */
     private $mergedPackages = null;
 
@@ -116,7 +116,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as coverAddress
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType
      */
     public function getCoverAddress()
     {
@@ -126,10 +126,10 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new coverAddress
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $coverAddress
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $coverAddress
      * @return self
      */
-    public function setCoverAddress(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $coverAddress)
+    public function setCoverAddress(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $coverAddress)
     {
         $this->coverAddress = $coverAddress;
         return $this;
@@ -138,7 +138,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as deliveryAddress
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType
      */
     public function getDeliveryAddress()
     {
@@ -148,10 +148,10 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new deliveryAddress
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $deliveryAddress
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $deliveryAddress
      * @return self
      */
-    public function setDeliveryAddress(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $deliveryAddress)
+    public function setDeliveryAddress(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $deliveryAddress)
     {
         $this->deliveryAddress = $deliveryAddress;
         return $this;
@@ -160,7 +160,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as deliveryContact
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType
      */
     public function getDeliveryContact()
     {
@@ -170,10 +170,10 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new deliveryContact
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $deliveryContact
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $deliveryContact
      * @return self
      */
-    public function setDeliveryContact(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType $deliveryContact)
+    public function setDeliveryContact(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ContactType $deliveryContact)
     {
         $this->deliveryContact = $deliveryContact;
         return $this;
@@ -205,9 +205,9 @@ class ExportRequestType extends RequestObjectBaseType
      * Adds as exportItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType $exportItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType $exportItem
      */
-    public function addToExportItems(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType $exportItem)
+    public function addToExportItems(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType $exportItem)
     {
         $this->exportItems[] = $exportItem;
         return $this;
@@ -238,7 +238,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as exportItems
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[]
      */
     public function getExportItems()
     {
@@ -248,7 +248,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new exportItems
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportItemType[] $exportItems
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportItemType[] $exportItems
      * @return self
      */
     public function setExportItems(array $exportItems)
@@ -261,9 +261,9 @@ class ExportRequestType extends RequestObjectBaseType
      * Adds as exportService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType $exportService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType $exportService
      */
-    public function addToExportServices(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType $exportService)
+    public function addToExportServices(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType $exportService)
     {
         $this->exportServices[] = $exportService;
         return $this;
@@ -294,7 +294,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as exportServices
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[]
      */
     public function getExportServices()
     {
@@ -304,7 +304,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new exportServices
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType[] $exportServices
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType[] $exportServices
      * @return self
      */
     public function setExportServices(array $exportServices)
@@ -317,9 +317,9 @@ class ExportRequestType extends RequestObjectBaseType
      * Adds as mergedItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType $mergedItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType $mergedItem
      */
-    public function addToMergedPackages(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType $mergedItem)
+    public function addToMergedPackages(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType $mergedItem)
     {
         $this->mergedPackages[] = $mergedItem;
         return $this;
@@ -350,7 +350,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Gets as mergedPackages
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[]
      */
     public function getMergedPackages()
     {
@@ -360,7 +360,7 @@ class ExportRequestType extends RequestObjectBaseType
     /**
      * Sets a new mergedPackages
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType[] $mergedPackages
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\MergedItemType[] $mergedPackages
      * @return self
      */
     public function setMergedPackages(array $mergedPackages)

@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapParts;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapParts;
 
 /**
  * Class representing WrapListInput
@@ -9,14 +9,14 @@ class WrapListInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\WrapList $parameters
+     * @property \GoetasWebservices\Client\GeisGroupCz\WrapList $parameters
      */
     private $parameters = null;
 
     /**
      * Gets as parameters
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\WrapList
+     * @return \GoetasWebservices\Client\GeisGroupCz\WrapList
      */
     public function getParameters()
     {
@@ -26,10 +26,10 @@ class WrapListInput
     /**
      * Sets a new parameters
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\WrapList $parameters
+     * @param \GoetasWebservices\Client\GeisGroupCz\WrapList $parameters
      * @return self
      */
-    public function setParameters(\GoetasWebservices\Client\GeisGrouCz\WrapList $parameters)
+    public function setParameters(\GoetasWebservices\Client\GeisGroupCz\WrapList $parameters)
     {
         $this->parameters = $parameters;
         return $this;

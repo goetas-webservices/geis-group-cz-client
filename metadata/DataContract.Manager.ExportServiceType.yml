@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ExportServiceType:
     properties:
         code:
             expose: true
@@ -99,7 +99,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType:
             accessor:
                 getter: getRODParameters
                 setter: setRODParameters
-            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType>
+            type: array<GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RODParameterType>
             xml_list:
                 inline: false
                 entry_name: RODParameter

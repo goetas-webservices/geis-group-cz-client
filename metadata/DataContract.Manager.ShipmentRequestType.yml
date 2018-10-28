@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentRequestType:
     properties:
         burstId:
             expose: true

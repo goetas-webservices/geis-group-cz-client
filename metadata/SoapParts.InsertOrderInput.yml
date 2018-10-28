@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderInput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\InsertOrderInput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\InsertOrderInput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: InsertOrder
-            type: GoetasWebservices\Client\GeisGrouCz\InsertOrder
+            type: GoetasWebservices\Client\GeisGroupCz\InsertOrder

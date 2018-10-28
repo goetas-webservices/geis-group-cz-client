@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz;
+namespace GoetasWebservices\Client\GeisGroupCz;
 
 /**
  * Class representing ServiceListResponse
@@ -9,14 +9,14 @@ class ServiceListResponse
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult
      */
     private $serviceListResult = null;
 
     /**
      * Gets as serviceListResult
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType
      */
     public function getServiceListResult()
     {
@@ -26,10 +26,10 @@ class ServiceListResponse
     /**
      * Sets a new serviceListResult
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult
      * @return self
      */
-    public function setServiceListResult(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult)
+    public function setServiceListResult(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType $serviceListResult)
     {
         $this->serviceListResult = $serviceListResult;
         return $this;

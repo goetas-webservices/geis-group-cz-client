@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Headers\ShipmentDetailInput:
+GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Headers\ShipmentDetailInput:
     xml_namespaces:
         SOAP: 'http://schemas.xmlsoap.org/soap/envelope/'

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType:
     properties:
         city:
             expose: true

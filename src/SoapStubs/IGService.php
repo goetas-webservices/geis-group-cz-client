@@ -1,29 +1,29 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapStubs;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapStubs;
 
 /**
  * Class representing IGService
  *
- * @method \GoetasWebservices\Client\GeisGrouCz\ServiceListResponse serviceList(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\AddServiceListResponse addServiceList(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\StatusListResponse statusList(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfStatusRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\WrapListResponse wrapList(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse deliveryRouting(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\ShipmentDetailResponse shipmentDetail(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\RouteTableResponse routeTable(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse createPickUp(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickUpRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\InsertExportResponse insertExport(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\InsertOrderResponse insertOrder(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfOrderRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\AssignRangeResponse assignRange(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\IsHealthyResponse isHealthy(string $adminToken)
- * @method \GoetasWebservices\Client\GeisGrouCz\GetCurrenciesResponse getCurrencies()
- * @method \GoetasWebservices\Client\GeisGrouCz\GetLabelResponse getLabel(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse listOfShipments(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\ShipmentStatusResponse shipmentStatus(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\GetPickupListResponse getPickupList(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse deleteShipment(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeleteShipmentRequestHUsxwOXqType $request)
- * @method \GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse rangeDetail(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\ServiceListResponse serviceList(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\AddServiceListResponse addServiceList(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfAddServiceRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\StatusListResponse statusList(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfStatusRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\WrapListResponse wrapList(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfWrapRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\DeliveryRoutingResponse deliveryRouting(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\ShipmentDetailResponse shipmentDetail(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentReqeustHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\RouteTableResponse routeTable(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRouteTableRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\CreatePickUpResponse createPickUp(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickUpRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\InsertExportResponse insertExport(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfExportRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\InsertOrderResponse insertOrder(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfOrderRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\AssignRangeResponse assignRange(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\IsHealthyResponse isHealthy(string $adminToken)
+ * @method \GoetasWebservices\Client\GeisGroupCz\GetCurrenciesResponse getCurrencies()
+ * @method \GoetasWebservices\Client\GeisGroupCz\GetLabelResponse getLabel(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfLabelRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\ListOfShipmentsResponse listOfShipments(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\ShipmentStatusResponse shipmentStatus(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\GetPickupListResponse getPickupList(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfPickupListRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\DeleteShipmentResponse deleteShipment(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfDeleteShipmentRequestHUsxwOXqType $request)
+ * @method \GoetasWebservices\Client\GeisGroupCz\RangeDetailResponse rangeDetail(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType $request)
  */
 class IGService
 {

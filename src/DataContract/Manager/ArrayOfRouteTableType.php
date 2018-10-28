@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ArrayOfRouteTableType
@@ -12,7 +12,7 @@ class ArrayOfRouteTableType
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[] $routeTable
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[] $routeTable
      */
     private $routeTable = [
         
@@ -22,9 +22,9 @@ class ArrayOfRouteTableType
      * Adds as routeTable
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType $routeTable
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType $routeTable
      */
-    public function addToRouteTable(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType $routeTable)
+    public function addToRouteTable(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType $routeTable)
     {
         $this->routeTable[] = $routeTable;
         return $this;
@@ -55,7 +55,7 @@ class ArrayOfRouteTableType
     /**
      * Gets as routeTable
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[]
      */
     public function getRouteTable()
     {
@@ -65,7 +65,7 @@ class ArrayOfRouteTableType
     /**
      * Sets a new routeTable
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType[] $routeTable
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType[] $routeTable
      * @return self
      */
     public function setRouteTable(array $routeTable)

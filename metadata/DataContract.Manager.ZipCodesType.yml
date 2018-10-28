@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType:
     properties:
         zipCodeFrom:
             expose: true

@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestOfDeliveryRoutingRequestHUsxwOXqType:
     properties:
         header:
             expose: true
@@ -9,7 +9,7 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeliveryRoutin
             accessor:
                 getter: getHeader
                 setter: setHeader
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RequestHeaderType
         requestObject:
             expose: true
             access_type: public_method
@@ -19,4 +19,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfDeliveryRoutin
             accessor:
                 getter: getRequestObject
                 setter: setRequestObject
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\DeliveryRoutingRequestType

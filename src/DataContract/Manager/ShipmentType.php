@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing ShipmentType
@@ -27,7 +27,7 @@ class ShipmentType
     private $codVarCode = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[] $colliHistory
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[] $colliHistory
      */
     private $colliHistory = null;
 
@@ -42,27 +42,27 @@ class ShipmentType
     private $delivPerson = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[] $history
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[] $history
      */
     private $history = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $recAddress
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $recAddress
      */
     private $recAddress = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[] $rows
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[] $rows
      */
     private $rows = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $sendAddress
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $sendAddress
      */
     private $sendAddress = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[] $services
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[] $services
      */
     private $services = null;
 
@@ -156,9 +156,9 @@ class ShipmentType
      * Adds as colliHistory
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType $colliHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType $colliHistory
      */
-    public function addToColliHistory(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType $colliHistory)
+    public function addToColliHistory(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType $colliHistory)
     {
         $this->colliHistory[] = $colliHistory;
         return $this;
@@ -189,7 +189,7 @@ class ShipmentType
     /**
      * Gets as colliHistory
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[]
      */
     public function getColliHistory()
     {
@@ -199,7 +199,7 @@ class ShipmentType
     /**
      * Sets a new colliHistory
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType[] $colliHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ColliHistoryType[] $colliHistory
      * @return self
      */
     public function setColliHistory(array $colliHistory)
@@ -256,9 +256,9 @@ class ShipmentType
      * Adds as packageHistory
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType $packageHistory
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType $packageHistory
      */
-    public function addToHistory(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType $packageHistory)
+    public function addToHistory(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType $packageHistory)
     {
         $this->history[] = $packageHistory;
         return $this;
@@ -289,7 +289,7 @@ class ShipmentType
     /**
      * Gets as history
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[]
      */
     public function getHistory()
     {
@@ -299,7 +299,7 @@ class ShipmentType
     /**
      * Sets a new history
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType[] $history
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageHistoryType[] $history
      * @return self
      */
     public function setHistory(array $history)
@@ -311,7 +311,7 @@ class ShipmentType
     /**
      * Gets as recAddress
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType
      */
     public function getRecAddress()
     {
@@ -321,10 +321,10 @@ class ShipmentType
     /**
      * Sets a new recAddress
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $recAddress
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $recAddress
      * @return self
      */
-    public function setRecAddress(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $recAddress)
+    public function setRecAddress(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $recAddress)
     {
         $this->recAddress = $recAddress;
         return $this;
@@ -334,9 +334,9 @@ class ShipmentType
      * Adds as packageRow
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType $packageRow
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType $packageRow
      */
-    public function addToRows(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType $packageRow)
+    public function addToRows(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType $packageRow)
     {
         $this->rows[] = $packageRow;
         return $this;
@@ -367,7 +367,7 @@ class ShipmentType
     /**
      * Gets as rows
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[]
      */
     public function getRows()
     {
@@ -377,7 +377,7 @@ class ShipmentType
     /**
      * Sets a new rows
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType[] $rows
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageRowType[] $rows
      * @return self
      */
     public function setRows(array $rows)
@@ -389,7 +389,7 @@ class ShipmentType
     /**
      * Gets as sendAddress
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType
      */
     public function getSendAddress()
     {
@@ -399,10 +399,10 @@ class ShipmentType
     /**
      * Sets a new sendAddress
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $sendAddress
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $sendAddress
      * @return self
      */
-    public function setSendAddress(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType $sendAddress)
+    public function setSendAddress(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\AddressType $sendAddress)
     {
         $this->sendAddress = $sendAddress;
         return $this;
@@ -412,9 +412,9 @@ class ShipmentType
      * Adds as packageService
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType $packageService
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType $packageService
      */
-    public function addToServices(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType $packageService)
+    public function addToServices(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType $packageService)
     {
         $this->services[] = $packageService;
         return $this;
@@ -445,7 +445,7 @@ class ShipmentType
     /**
      * Gets as services
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[]
      */
     public function getServices()
     {
@@ -455,7 +455,7 @@ class ShipmentType
     /**
      * Sets a new services
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType[] $services
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\PackageServiceType[] $services
      * @return self
      */
     public function setServices(array $services)

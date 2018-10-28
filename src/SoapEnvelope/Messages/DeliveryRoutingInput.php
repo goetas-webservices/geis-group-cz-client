@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\SoapEnvelope\Messages;
+namespace GoetasWebservices\Client\GeisGroupCz\SoapEnvelope\Messages;
 
 /**
  * Class representing DeliveryRoutingInput
@@ -9,7 +9,7 @@ class DeliveryRoutingInput
 {
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\SoapParts\DeliveryRoutingInput $body
+     * @property \GoetasWebservices\Client\GeisGroupCz\SoapParts\DeliveryRoutingInput $body
      */
     private $body = null;
 
@@ -21,7 +21,7 @@ class DeliveryRoutingInput
     /**
      * Gets as body
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\SoapParts\DeliveryRoutingInput
+     * @return \GoetasWebservices\Client\GeisGroupCz\SoapParts\DeliveryRoutingInput
      */
     public function getBody()
     {
@@ -31,10 +31,10 @@ class DeliveryRoutingInput
     /**
      * Sets a new body
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\SoapParts\DeliveryRoutingInput $body
+     * @param \GoetasWebservices\Client\GeisGroupCz\SoapParts\DeliveryRoutingInput $body
      * @return self
      */
-    public function setBody(\GoetasWebservices\Client\GeisGrouCz\SoapParts\DeliveryRoutingInput $body)
+    public function setBody(\GoetasWebservices\Client\GeisGroupCz\SoapParts\DeliveryRoutingInput $body)
     {
         $this->body = $body;
         return $this;

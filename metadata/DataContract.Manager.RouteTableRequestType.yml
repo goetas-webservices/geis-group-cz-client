@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableRequestType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableRequestType:
     properties:
         distributionChannel:
             expose: true

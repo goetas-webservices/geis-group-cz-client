@@ -1,6 +1,6 @@
 <?php
 
-namespace GoetasWebservices\Client\GeisGrouCz\DataContract\Manager;
+namespace GoetasWebservices\Client\GeisGroupCz\DataContract\Manager;
 
 /**
  * Class representing RangeDetailResponseType
@@ -22,7 +22,7 @@ class RangeDetailResponseType
     private $assignRangeLimit = null;
 
     /**
-     * @property \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailItem
+     * @property \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailItem
      */
     private $rangeDetailItem = null;
 
@@ -74,9 +74,9 @@ class RangeDetailResponseType
      * Adds as rangeDetailResponseItem
      *
      * @return self
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem
      */
-    public function addToRangeDetailItem(\GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem)
+    public function addToRangeDetailItem(\GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType $rangeDetailResponseItem)
     {
         $this->rangeDetailItem[] = $rangeDetailResponseItem;
         return $this;
@@ -107,7 +107,7 @@ class RangeDetailResponseType
     /**
      * Gets as rangeDetailItem
      *
-     * @return \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[]
+     * @return \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[]
      */
     public function getRangeDetailItem()
     {
@@ -117,7 +117,7 @@ class RangeDetailResponseType
     /**
      * Sets a new rangeDetailItem
      *
-     * @param \GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailItem
+     * @param \GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RangeDetailResponseItemType[] $rangeDetailItem
      * @return self
      */
     public function setRangeDetailItem(array $rangeDetailItem)

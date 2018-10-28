@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyOutput:
+GoetasWebservices\Client\GeisGroupCz\SoapParts\IsHealthyOutput:
     xml_root_namespace: 'http://tempuri.org/'
     properties:
         parameters:
@@ -10,4 +10,4 @@ GoetasWebservices\Client\GeisGrouCz\SoapParts\IsHealthyOutput:
             xml_element:
                 namespace: 'http://tempuri.org/'
             serialized_name: IsHealthyResponse
-            type: GoetasWebservices\Client\GeisGrouCz\IsHealthyResponse
+            type: GoetasWebservices\Client\GeisGroupCz\IsHealthyResponse

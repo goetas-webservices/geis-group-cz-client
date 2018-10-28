@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\RouteTableType:
     properties:
         country:
             expose: true
@@ -59,4 +59,4 @@ GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType:
             accessor:
                 getter: getZipCodes
                 setter: setZipCodes
-            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType
+            type: GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ZipCodesType

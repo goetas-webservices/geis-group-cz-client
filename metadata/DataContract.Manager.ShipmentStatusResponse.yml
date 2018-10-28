@@ -1,3 +1,3 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentStatusResponse:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\ShipmentStatusResponse:
     xml_root_name: ShipmentStatusResponse
     xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

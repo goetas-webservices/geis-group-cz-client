@@ -1,4 +1,4 @@
-GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType:
+GoetasWebservices\Client\GeisGroupCz\DataContract\Manager\WrapType:
     properties:
         code:
             expose: true
