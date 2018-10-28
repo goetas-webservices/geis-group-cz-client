@@ -1,0 +1,62 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingRequestType:
+    properties:
+        countryIn:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryIn
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountryIn
+                setter: setCountryIn
+            type: string
+        countryOut:
+            expose: true
+            access_type: public_method
+            serialized_name: CountryOut
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountryOut
+                setter: setCountryOut
+            type: string
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        temperatureMode:
+            expose: true
+            access_type: public_method
+            serialized_name: TemperatureMode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getTemperatureMode
+                setter: setTemperatureMode
+            type: string
+        zipCodeIn:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodeIn
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodeIn
+                setter: setZipCodeIn
+            type: string
+        zipCodeOut:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodeOut
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodeOut
+                setter: setZipCodeOut
+            type: string

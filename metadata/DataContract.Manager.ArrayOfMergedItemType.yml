@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfMergedItemType:
+    properties:
+        mergedItem:
+            expose: true
+            access_type: public_method
+            serialized_name: MergedItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getMergedItem
+                setter: setMergedItem
+            xml_list:
+                inline: true
+                entry_name: MergedItem
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType>

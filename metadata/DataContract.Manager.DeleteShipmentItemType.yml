@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType:
+    properties:
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        shipmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentNumber
+                setter: setShipmentNumber
+            type: string

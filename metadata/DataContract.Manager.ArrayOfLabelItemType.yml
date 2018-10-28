@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfLabelItemType:
+    properties:
+        labelItem:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getLabelItem
+                setter: setLabelItem
+            xml_list:
+                inline: true
+                entry_name: LabelItem
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType>

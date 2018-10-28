@@ -1,0 +1,42 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType:
+    properties:
+        lastUsedNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: LastUsedNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getLastUsedNumber
+                setter: setLastUsedNumber
+            type: string
+        rangeHigh:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeHigh
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeHigh
+                setter: setRangeHigh
+            type: string
+        rangeLow:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeLow
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeLow
+                setter: setRangeLow
+            type: string
+        remainingNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: RemainingNumbers
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRemainingNumbers
+                setter: setRemainingNumbers
+            type: string

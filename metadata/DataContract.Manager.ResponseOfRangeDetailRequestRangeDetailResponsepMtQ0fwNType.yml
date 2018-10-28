@@ -1,0 +1,52 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRangeDetailRequestRangeDetailResponsepMtQ0fwNType:
+    properties:
+        errorCode:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorCode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getErrorCode
+                setter: setErrorCode
+            type: string
+        errorMessage:
+            expose: true
+            access_type: public_method
+            serialized_name: ErrorMessage
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getErrorMessage
+                setter: setErrorMessage
+            type: string
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: Request
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfRangeDetailRequestHUsxwOXqType
+        responseObject:
+            expose: true
+            access_type: public_method
+            serialized_name: ResponseObject
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getResponseObject
+                setter: setResponseObject
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseType
+        status:
+            expose: true
+            access_type: public_method
+            serialized_name: Status
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getStatus
+                setter: setStatus
+            type: string

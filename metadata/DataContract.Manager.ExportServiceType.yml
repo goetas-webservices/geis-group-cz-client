@@ -1,0 +1,107 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportServiceType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        parameter1:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_1
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter1
+                setter: setParameter1
+            type: string
+        parameter2:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_2
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter2
+                setter: setParameter2
+            type: string
+        parameter3:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_3
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter3
+                setter: setParameter3
+            type: string
+        parameter4:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_4
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter4
+                setter: setParameter4
+            type: string
+        parameter5:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_5
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter5
+                setter: setParameter5
+            type: string
+        parameter6:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_6
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter6
+                setter: setParameter6
+            type: string
+        parameter7:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_7
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter7
+                setter: setParameter7
+            type: string
+        parameter8:
+            expose: true
+            access_type: public_method
+            serialized_name: Parameter_8
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getParameter8
+                setter: setParameter8
+            type: string
+        rODParameters:
+            expose: true
+            access_type: public_method
+            serialized_name: RODParameters
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRODParameters
+                setter: setRODParameters
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RODParameterType>
+            xml_list:
+                inline: false
+                entry_name: RODParameter
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType:
+    properties:
+        zipCodeFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodeFrom
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodeFrom
+                setter: setZipCodeFrom
+            type: string
+        zipCodeTo:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodeTo
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodeTo
+                setter: setZipCodeTo
+            type: string

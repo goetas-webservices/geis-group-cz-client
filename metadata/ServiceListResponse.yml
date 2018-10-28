@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\ServiceListResponse:
+    xml_root_name: ServiceListResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        serviceListResult:
+            expose: true
+            access_type: public_method
+            serialized_name: ServiceListResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getServiceListResult
+                setter: setServiceListResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfServiceRequestArrayOfServicepMtQ0fwNType

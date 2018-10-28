@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\DeliveryRoutingResponse:
+    xml_root_name: DeliveryRoutingResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        deliveryRoutingResult:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryRoutingResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getDeliveryRoutingResult
+                setter: setDeliveryRoutingResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeliveryRoutingRequestDeliveryRoutingpMtQ0fwNType

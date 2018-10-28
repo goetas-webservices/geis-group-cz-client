@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfDeleteShipmentItemType:
+    properties:
+        deleteShipmentItem:
+            expose: true
+            access_type: public_method
+            serialized_name: DeleteShipmentItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDeleteShipmentItem
+                setter: setDeleteShipmentItem
+            xml_list:
+                inline: true
+                entry_name: DeleteShipmentItem
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeleteShipmentItemType>

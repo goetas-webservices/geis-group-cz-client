@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfServiceRequestHUsxwOXqType:
+    properties:
+        header:
+            expose: true
+            access_type: public_method
+            serialized_name: Header
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getHeader
+                setter: setHeader
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestHeaderType
+        requestObject:
+            expose: true
+            access_type: public_method
+            serialized_name: RequestObject
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRequestObject
+                setter: setRequestObject
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ServiceRequestType

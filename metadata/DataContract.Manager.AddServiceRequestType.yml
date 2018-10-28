@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceRequestType:
+    properties:
+        deliveryCountry:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryCountry
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDeliveryCountry
+                setter: setDeliveryCountry
+            type: string
+        service:
+            expose: true
+            access_type: public_method
+            serialized_name: Service
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getService
+                setter: setService
+            type: string

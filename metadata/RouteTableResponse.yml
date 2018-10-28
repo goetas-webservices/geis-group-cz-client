@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\RouteTableResponse:
+    xml_root_name: RouteTableResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        routeTableResult:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteTableResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getRouteTableResult
+                setter: setRouteTableResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfRouteTableRequestArrayOfRouteTablepMtQ0fwNType

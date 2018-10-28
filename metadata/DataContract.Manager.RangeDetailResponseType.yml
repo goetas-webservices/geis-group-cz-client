@@ -1,0 +1,37 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseType:
+    properties:
+        assignAllowed:
+            expose: true
+            access_type: public_method
+            serialized_name: AssignAllowed
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getAssignAllowed
+                setter: setAssignAllowed
+            type: bool
+        assignRangeLimit:
+            expose: true
+            access_type: public_method
+            serialized_name: AssignRangeLimit
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getAssignRangeLimit
+                setter: setAssignRangeLimit
+            type: string
+        rangeDetailItem:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeDetailItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeDetailItem
+                setter: setRangeDetailItem
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType>
+            xml_list:
+                inline: false
+                entry_name: RangeDetailResponseItem
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

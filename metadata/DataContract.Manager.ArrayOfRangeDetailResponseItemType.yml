@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRangeDetailResponseItemType:
+    properties:
+        rangeDetailResponseItem:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeDetailResponseItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeDetailResponseItem
+                setter: setRangeDetailResponseItem
+            xml_list:
+                inline: true
+                entry_name: RangeDetailResponseItem
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeDetailResponseItemType>

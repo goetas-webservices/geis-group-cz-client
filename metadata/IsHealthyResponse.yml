@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\IsHealthyResponse:
+    xml_root_name: IsHealthyResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        isHealthyResult:
+            expose: true
+            access_type: public_method
+            serialized_name: IsHealthyResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getIsHealthyResult
+                setter: setIsHealthyResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\HealhtyResponseType

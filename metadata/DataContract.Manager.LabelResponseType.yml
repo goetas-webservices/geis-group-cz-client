@@ -1,0 +1,32 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelResponseType:
+    properties:
+        labelData:
+            expose: true
+            access_type: public_method
+            serialized_name: LabelData
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getLabelData
+                setter: setLabelData
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemDataType>
+            xml_list:
+                inline: false
+                entry_name: LabelItemData
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        shipmentNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentNumbers
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentNumbers
+                setter: setShipmentNumbers
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType>
+            xml_list:
+                inline: false
+                entry_name: LabelItem
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

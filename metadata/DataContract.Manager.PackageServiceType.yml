@@ -1,0 +1,32 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType:
+    properties:
+        currency:
+            expose: true
+            access_type: public_method
+            serialized_name: Currency
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCurrency
+                setter: setCurrency
+            type: string
+        name:
+            expose: true
+            access_type: public_method
+            serialized_name: Name
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getName
+                setter: setName
+            type: string
+        price:
+            expose: true
+            access_type: public_method
+            serialized_name: Price
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPrice
+                setter: setPrice
+            type: float

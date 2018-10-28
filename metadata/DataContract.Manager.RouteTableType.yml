@@ -1,0 +1,62 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType:
+    properties:
+        country:
+            expose: true
+            access_type: public_method
+            serialized_name: Country
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountry
+                setter: setCountry
+            type: string
+        depot:
+            expose: true
+            access_type: public_method
+            serialized_name: Depot
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDepot
+                setter: setDepot
+            type: string
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        route:
+            expose: true
+            access_type: public_method
+            serialized_name: Route
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRoute
+                setter: setRoute
+            type: string
+        validDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getValidDate
+                setter: setValidDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        zipCodes:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodes
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodes
+                setter: setZipCodes
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType

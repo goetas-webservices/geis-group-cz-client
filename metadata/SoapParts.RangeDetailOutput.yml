@@ -1,0 +1,13 @@
+GoetasWebservices\Client\GeisGrouCz\SoapParts\RangeDetailOutput:
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        parameters:
+            expose: true
+            access_type: public_method
+            accessor:
+                getter: getParameters
+                setter: setParameters
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            serialized_name: RangeDetailResponse
+            type: GoetasWebservices\Client\GeisGrouCz\RangeDetailResponse

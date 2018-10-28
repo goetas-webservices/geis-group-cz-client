@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPickupListShipmItemType:
+    properties:
+        pickupListShipmItem:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupListShipmItem
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPickupListShipmItem
+                setter: setPickupListShipmItem
+            xml_list:
+                inline: true
+                entry_name: PickupListShipmItem
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType>

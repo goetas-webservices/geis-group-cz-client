@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\DeleteShipmentResponse:
+    xml_root_name: DeleteShipmentResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        deleteShipmentResult:
+            expose: true
+            access_type: public_method
+            serialized_name: DeleteShipmentResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getDeleteShipmentResult
+                setter: setDeleteShipmentResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfDeleteShipmentRequestDeleteShipmentResponsepMtQ0fwNType

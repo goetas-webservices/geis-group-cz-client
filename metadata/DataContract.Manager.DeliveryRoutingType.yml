@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\DeliveryRoutingType:
+    properties:
+        deliveryRoute:
+            expose: true
+            access_type: public_method
+            serialized_name: DeliveryRoute
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDeliveryRoute
+                setter: setDeliveryRoute
+            type: string
+        depCode:
+            expose: true
+            access_type: public_method
+            serialized_name: DepCode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDepCode
+                setter: setDepCode
+            type: string

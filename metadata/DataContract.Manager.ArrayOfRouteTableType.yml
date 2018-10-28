@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfRouteTableType:
+    properties:
+        routeTable:
+            expose: true
+            access_type: public_method
+            serialized_name: RouteTable
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRouteTable
+                setter: setRouteTable
+            xml_list:
+                inline: true
+                entry_name: RouteTable
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableType>

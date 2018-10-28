@@ -1,0 +1,72 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType:
+    properties:
+        countItems:
+            expose: true
+            access_type: public_method
+            serialized_name: CountItems
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountItems
+                setter: setCountItems
+            type: int
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        dimensions:
+            expose: true
+            access_type: public_method
+            serialized_name: Dimensions
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDimensions
+                setter: setDimensions
+            type: string
+        packingType:
+            expose: true
+            access_type: public_method
+            serialized_name: PackingType
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPackingType
+                setter: setPackingType
+            type: string
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: Reference
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: string
+        volume:
+            expose: true
+            access_type: public_method
+            serialized_name: Volume
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getVolume
+                setter: setVolume
+            type: float
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: float

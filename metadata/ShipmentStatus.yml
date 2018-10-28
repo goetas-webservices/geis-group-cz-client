@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\ShipmentStatus:
+    xml_root_name: ShipmentStatus
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        request:
+            expose: true
+            access_type: public_method
+            serialized_name: Request
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getRequest
+                setter: setRequest
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RequestOfShipmentStatusRequestHUsxwOXqType

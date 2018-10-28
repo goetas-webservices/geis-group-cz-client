@@ -1,0 +1,172 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentType:
+    properties:
+        borderDate:
+            expose: true
+            access_type: public_method
+            serialized_name: BorderDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getBorderDate
+                setter: setBorderDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        codValue:
+            expose: true
+            access_type: public_method
+            serialized_name: CodValue
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCodValue
+                setter: setCodValue
+            type: string
+        codVarCode:
+            expose: true
+            access_type: public_method
+            serialized_name: CodVarCode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCodVarCode
+                setter: setCodVarCode
+            type: string
+        colliHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: ColliHistory
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getColliHistory
+                setter: setColliHistory
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ColliHistoryType>
+            xml_list:
+                inline: false
+                entry_name: ColliHistory
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        delivDate:
+            expose: true
+            access_type: public_method
+            serialized_name: DelivDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDelivDate
+                setter: setDelivDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        delivPerson:
+            expose: true
+            access_type: public_method
+            serialized_name: DelivPerson
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDelivPerson
+                setter: setDelivPerson
+            type: string
+        history:
+            expose: true
+            access_type: public_method
+            serialized_name: History
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getHistory
+                setter: setHistory
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType>
+            xml_list:
+                inline: false
+                entry_name: PackageHistory
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        recAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: RecAddress
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRecAddress
+                setter: setRecAddress
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+        rows:
+            expose: true
+            access_type: public_method
+            serialized_name: Rows
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRows
+                setter: setRows
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageRowType>
+            xml_list:
+                inline: false
+                entry_name: PackageRow
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        sendAddress:
+            expose: true
+            access_type: public_method
+            serialized_name: SendAddress
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getSendAddress
+                setter: setSendAddress
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddressType
+        services:
+            expose: true
+            access_type: public_method
+            serialized_name: Services
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getServices
+                setter: setServices
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType>
+            xml_list:
+                inline: false
+                entry_name: PackageService
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        shipmentNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentNumber
+                setter: setShipmentNumber
+            type: string
+        shipmentNumberCust:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentNumberCust
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentNumberCust
+                setter: setShipmentNumberCust
+            type: string
+        volume:
+            expose: true
+            access_type: public_method
+            serialized_name: Volume
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getVolume
+                setter: setVolume
+            type: string
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: float

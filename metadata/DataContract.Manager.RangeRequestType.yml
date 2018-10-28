@@ -1,0 +1,32 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeRequestType:
+    properties:
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        range:
+            expose: true
+            access_type: public_method
+            serialized_name: Range
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRange
+                setter: setRange
+            type: int
+        transportType:
+            expose: true
+            access_type: public_method
+            serialized_name: TransportType
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getTransportType
+                setter: setTransportType
+            type: int

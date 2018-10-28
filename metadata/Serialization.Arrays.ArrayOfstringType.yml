@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\Serialization\Arrays\ArrayOfstringType:
+    properties:
+        string:
+            expose: true
+            access_type: public_method
+            serialized_name: string
+            xml_element:
+                namespace: 'http://schemas.microsoft.com/2003/10/Serialization/Arrays'
+            accessor:
+                getter: getString
+                setter: setString
+            xml_list:
+                inline: true
+                entry_name: string
+                namespace: 'http://schemas.microsoft.com/2003/10/Serialization/Arrays'
+            type: array<string>

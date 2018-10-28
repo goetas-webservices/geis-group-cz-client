@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\StatusListResponse:
+    xml_root_name: StatusListResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        statusListResult:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusListResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getStatusListResult
+                setter: setStatusListResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfStatusRequestArrayOfStatuspMtQ0fwNType

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\CreatePickUpResponse:
+    xml_root_name: CreatePickUpResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        createPickUpResult:
+            expose: true
+            access_type: public_method
+            serialized_name: CreatePickUpResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getCreatePickUpResult
+                setter: setCreatePickUpResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickUpRequestPickUppMtQ0fwNType

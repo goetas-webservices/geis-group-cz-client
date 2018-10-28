@@ -1,0 +1,32 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\WrapType:
+    properties:
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        returnable:
+            expose: true
+            access_type: public_method
+            serialized_name: Returnable
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getReturnable
+                setter: setReturnable
+            type: bool

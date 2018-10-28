@@ -1,0 +1,32 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentRequestType:
+    properties:
+        burstId:
+            expose: true
+            access_type: public_method
+            serialized_name: BurstId
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getBurstId
+                setter: setBurstId
+            type: string
+        created:
+            expose: true
+            access_type: public_method
+            serialized_name: Created
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCreated
+                setter: setCreated
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dateExpOrOrder:
+            expose: true
+            access_type: public_method
+            serialized_name: DateExpOrOrder
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDateExpOrOrder
+                setter: setDateExpOrOrder
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

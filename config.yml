@@ -1,0 +1,12 @@
+soap_client:
+    namespaces:
+        'http://tempuri.org/': GoetasWebservices\Client\GeisGrouCz
+        'http://schemas.datacontract.org/2004/07/GService.Manager': GoetasWebservices\Client\GeisGrouCz\DataContract\Manager
+        'http://schemas.microsoft.com/2003/10/Serialization/': GoetasWebservices\Client\GeisGrouCz\Serialization
+        'http://schemas.microsoft.com/2003/10/Serialization/Arrays': GoetasWebservices\Client\GeisGrouCz\Serialization\Arrays
+    destinations_php:
+        GoetasWebservices\Client\GeisGrouCz: src
+    destinations_jms:
+        GoetasWebservices\Client\GeisGrouCz: metadata
+    metadata:
+        'https://gclient.geis.cz/GService/GService.svc?singlewsdl': null

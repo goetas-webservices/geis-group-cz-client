@@ -1,0 +1,12 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListResponseType:
+    properties:
+        pickupListData:
+            expose: true
+            access_type: public_method
+            serialized_name: PickupListData
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPickupListData
+                setter: setPickupListData
+            type: \AnySimpleType

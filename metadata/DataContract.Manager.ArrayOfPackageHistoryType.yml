@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageHistoryType:
+    properties:
+        packageHistory:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageHistory
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPackageHistory
+                setter: setPackageHistory
+            xml_list:
+                inline: true
+                entry_name: PackageHistory
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType>

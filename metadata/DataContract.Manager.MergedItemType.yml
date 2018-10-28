@@ -1,0 +1,42 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\MergedItemType:
+    properties:
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: string
+        packNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PackNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPackNumber
+                setter: setPackNumber
+            type: string
+        partnerNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PartnerNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPartnerNumber
+                setter: setPartnerNumber
+            type: string
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: float

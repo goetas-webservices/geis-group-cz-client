@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RangeType:
+    properties:
+        rangeHigh:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeHigh
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeHigh
+                setter: setRangeHigh
+            type: string
+        rangeLow:
+            expose: true
+            access_type: public_method
+            serialized_name: RangeLow
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getRangeLow
+                setter: setRangeLow
+            type: string

@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\ListOfShipmentsResponse:
+    xml_root_name: ListOfShipmentsResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        listOfShipmentsResult:
+            expose: true
+            access_type: public_method
+            serialized_name: ListOfShipmentsResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getListOfShipmentsResult
+                setter: setListOfShipmentsResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfShipmentRequestArrayOfShipmentResponsepMtQ0fwNType

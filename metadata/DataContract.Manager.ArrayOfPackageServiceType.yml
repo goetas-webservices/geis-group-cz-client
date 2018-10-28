@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfPackageServiceType:
+    properties:
+        packageService:
+            expose: true
+            access_type: public_method
+            serialized_name: PackageService
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPackageService
+                setter: setPackageService
+            xml_list:
+                inline: true
+                entry_name: PackageService
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageServiceType>

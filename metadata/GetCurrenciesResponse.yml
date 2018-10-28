@@ -1,0 +1,19 @@
+GoetasWebservices\Client\GeisGrouCz\GetCurrenciesResponse:
+    xml_root_name: GetCurrenciesResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        getCurrenciesResult:
+            expose: true
+            access_type: public_method
+            serialized_name: GetCurrenciesResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getGetCurrenciesResult
+                setter: setGetCurrenciesResult
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: Currency
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

@@ -1,0 +1,57 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\AddServiceType:
+    properties:
+        abbreviation:
+            expose: true
+            access_type: public_method
+            serialized_name: Abbreviation
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getAbbreviation
+                setter: setAbbreviation
+            type: string
+        code:
+            expose: true
+            access_type: public_method
+            serialized_name: Code
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCode
+                setter: setCode
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        service:
+            expose: true
+            access_type: public_method
+            serialized_name: Service
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getService
+                setter: setService
+            type: string
+        zipCodesList:
+            expose: true
+            access_type: public_method
+            serialized_name: ZipCodesList
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getZipCodesList
+                setter: setZipCodesList
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ZipCodesType>
+            xml_list:
+                inline: false
+                entry_name: ZipCodes
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

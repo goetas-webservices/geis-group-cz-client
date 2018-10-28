@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\InsertOrderResponse:
+    xml_root_name: InsertOrderResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        insertOrderResult:
+            expose: true
+            access_type: public_method
+            serialized_name: InsertOrderResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getInsertOrderResult
+                setter: setInsertOrderResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfOrderRequestOrderpMtQ0fwNType

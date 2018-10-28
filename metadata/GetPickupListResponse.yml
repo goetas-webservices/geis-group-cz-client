@@ -1,0 +1,14 @@
+GoetasWebservices\Client\GeisGrouCz\GetPickupListResponse:
+    xml_root_name: GetPickupListResponse
+    xml_root_namespace: 'http://tempuri.org/'
+    properties:
+        getPickupListResult:
+            expose: true
+            access_type: public_method
+            serialized_name: GetPickupListResult
+            xml_element:
+                namespace: 'http://tempuri.org/'
+            accessor:
+                getter: getGetPickupListResult
+                setter: setGetPickupListResult
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ResponseOfPickupListRequestPickupListResponsepMtQ0fwNType

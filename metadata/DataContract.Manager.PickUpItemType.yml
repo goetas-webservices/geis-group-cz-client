@@ -1,0 +1,42 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType:
+    properties:
+        countItems:
+            expose: true
+            access_type: public_method
+            serialized_name: CountItems
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountItems
+                setter: setCountItems
+            type: int
+        reference:
+            expose: true
+            access_type: public_method
+            serialized_name: Reference
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getReference
+                setter: setReference
+            type: string
+        type:
+            expose: true
+            access_type: public_method
+            serialized_name: Type
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getType
+                setter: setType
+            type: string
+        weight:
+            expose: true
+            access_type: public_method
+            serialized_name: Weight
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getWeight
+                setter: setWeight
+            type: float

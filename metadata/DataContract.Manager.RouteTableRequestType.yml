@@ -1,0 +1,22 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\RouteTableRequestType:
+    properties:
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        validDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ValidDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getValidDate
+                setter: setValidDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime

@@ -1,0 +1,57 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelRequestType:
+    properties:
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        format:
+            expose: true
+            access_type: public_method
+            serialized_name: Format
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getFormat
+                setter: setFormat
+            type: int
+        position:
+            expose: true
+            access_type: public_method
+            serialized_name: Position
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPosition
+                setter: setPosition
+            type: int
+        resolution:
+            expose: true
+            access_type: public_method
+            serialized_name: Resolution
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getResolution
+                setter: setResolution
+            type: int
+        shipmentNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentNumbers
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentNumbers
+                setter: setShipmentNumbers
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\LabelItemType>
+            xml_list:
+                inline: false
+                entry_name: LabelItem
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

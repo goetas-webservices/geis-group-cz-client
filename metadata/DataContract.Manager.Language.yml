@@ -1,0 +1,12 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\Language:
+    xml_root_name: Language
+    xml_root_namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+    properties:
+        __value:
+            expose: true
+            xml_value: true
+            access_type: public_method
+            accessor:
+                getter: value
+                setter: value
+            type: string

@@ -1,0 +1,52 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PackageHistoryType:
+    properties:
+        depName:
+            expose: true
+            access_type: public_method
+            serialized_name: DepName
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDepName
+                setter: setDepName
+            type: string
+        description:
+            expose: true
+            access_type: public_method
+            serialized_name: Description
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDescription
+                setter: setDescription
+            type: string
+        statusCode:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusCode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getStatusCode
+                setter: setStatusCode
+            type: string
+        statusDate:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getStatusDate
+                setter: setStatusDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        statusName:
+            expose: true
+            access_type: public_method
+            serialized_name: StatusName
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getStatusName
+                setter: setStatusName
+            type: string

@@ -1,0 +1,16 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ArrayOfShipmentResponseType:
+    properties:
+        shipmentResponse:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentResponse
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentResponse
+                setter: setShipmentResponse
+            xml_list:
+                inline: true
+                entry_name: ShipmentResponse
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ShipmentResponseType>

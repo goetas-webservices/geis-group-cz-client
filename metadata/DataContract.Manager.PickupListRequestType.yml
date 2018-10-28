@@ -1,0 +1,37 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListRequestType:
+    properties:
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        expeditionCreateDate:
+            expose: true
+            access_type: public_method
+            serialized_name: ExpeditionCreateDate
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getExpeditionCreateDate
+                setter: setExpeditionCreateDate
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        shipmentsNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: ShipmentsNumbers
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getShipmentsNumbers
+                setter: setShipmentsNumbers
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickupListShipmItemType>
+            xml_list:
+                inline: false
+                entry_name: PickupListShipmItem
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'

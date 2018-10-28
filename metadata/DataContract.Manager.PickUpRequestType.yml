@@ -1,0 +1,97 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpRequestType:
+    properties:
+        contact:
+            expose: true
+            access_type: public_method
+            serialized_name: Contact
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getContact
+                setter: setContact
+            type: GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ContactType
+        countItems:
+            expose: true
+            access_type: public_method
+            serialized_name: CountItems
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getCountItems
+                setter: setCountItems
+            type: int
+        dateFrom:
+            expose: true
+            access_type: public_method
+            serialized_name: DateFrom
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDateFrom
+                setter: setDateFrom
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        dateTo:
+            expose: true
+            access_type: public_method
+            serialized_name: DateTo
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDateTo
+                setter: setDateTo
+            type: GoetasWebservices\Xsd\XsdToPhp\XMLSchema\DateTime
+        distributionChannel:
+            expose: true
+            access_type: public_method
+            serialized_name: DistributionChannel
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getDistributionChannel
+                setter: setDistributionChannel
+            type: int
+        note:
+            expose: true
+            access_type: public_method
+            serialized_name: Note
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getNote
+                setter: setNote
+            type: string
+        pickUpItems:
+            expose: true
+            access_type: public_method
+            serialized_name: PickUpItems
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPickUpItems
+                setter: setPickUpItems
+            type: array<GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\PickUpItemType>
+            xml_list:
+                inline: false
+                entry_name: PickUpItem
+                skip_when_empty: true
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+        temperatureMode:
+            expose: true
+            access_type: public_method
+            serialized_name: TemperatureMode
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getTemperatureMode
+                setter: setTemperatureMode
+            type: string
+        totalWeight:
+            expose: true
+            access_type: public_method
+            serialized_name: TotalWeight
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getTotalWeight
+                setter: setTotalWeight
+            type: float

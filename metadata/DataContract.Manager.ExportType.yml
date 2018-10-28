@@ -1,0 +1,37 @@
+GoetasWebservices\Client\GeisGrouCz\DataContract\Manager\ExportType:
+    properties:
+        burstId:
+            expose: true
+            access_type: public_method
+            serialized_name: BurstId
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getBurstId
+                setter: setBurstId
+            type: string
+        mergedPackNumbers:
+            expose: true
+            access_type: public_method
+            serialized_name: MergedPackNumbers
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getMergedPackNumbers
+                setter: setMergedPackNumbers
+            type: array<string>
+            xml_list:
+                inline: false
+                entry_name: string
+                skip_when_empty: true
+                namespace: 'http://schemas.microsoft.com/2003/10/Serialization/Arrays'
+        packNumber:
+            expose: true
+            access_type: public_method
+            serialized_name: PackNumber
+            xml_element:
+                namespace: 'http://schemas.datacontract.org/2004/07/GService.Manager'
+            accessor:
+                getter: getPackNumber
+                setter: setPackNumber
+            type: string
