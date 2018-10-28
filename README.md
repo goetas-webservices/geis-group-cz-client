@@ -1,6 +1,6 @@
-# Adyen Payments SOAP PHP client
+# Geis Group Shipment  SOAP PHP client
 
-This project provides a SOAP client for the Adyen Payments webservice API
+This project provides a SOAP client for the Geis Group Shipment client API
 
 More info can be found visiting [https://www.geis-group.cz/en](https://www.geis-group.cz/en) 
 
